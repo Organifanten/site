@@ -1,0 +1,217 @@
+---
+layout: layout.njk
+---
+
+<div class="min-h-screen bg-base-100 text-base-content">
+<div class="navbar bg-base-100 px-8">
+  <div class="flex-1">
+    <a class="text-2xl font-bold text-primary">Organifanten</a>
+  </div>
+  <div class="flex-none">
+    <a href="#beta" class="btn btn-primary btn-outline">Login</a>
+  </div>
+</div>
+  <!-- HERO -->
+  <section class="hero py-6">
+    <div class="hero-content text-center max-w-3xl">
+      <div>
+        <div  class="w-lg h-lg text-primary flex justify-center mx-auto my-10">{% include "elephant.njk" %}</div>
+        <h1 class="text-4xl md:text-5xl font-semibold leading-tight">
+          For the <span class="text-primary underline">work</span> that unfolds slowly
+        </h1>
+
+        <p class="mt-6 text-lg opacity-80">
+          Organifanten is your private space to work on tensions in your organization <br> — over months, not sprints.
+        </p>
+
+        <div class="mt-10">
+          <a class="btn btn-primary btn-lg">Describe a tension</a>
+          <p class="text-sm opacity-60 mt-3">
+            Free for individuals · 99€/month for organizations
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- RECOGNITION -->
+  <section class="py-20">
+    <div class="max-w-3xl mx-auto px-6 space-y-6 text-lg leading-relaxed">
+      <h2 class="text-2xl font-medium">
+        There are organizational elephants in the room.
+        <br>
+        It's your job to work with them.
+      </h2>
+    <div class="grid md:grid-cols-2 gap-8">
+        <div>
+            <p class="font-medium text-primary pb-4">
+                This is slow work...
+            </p>
+            <ul class="space-y-2 opacity-90">
+            <li>Tensions emerge slowly</li>
+            <li>Interventions must be timed right</li>
+            <li>Effects can appear months after</li>
+            </ul>
+        </div>
+        <div>
+            <p class="font-medium text-primary pb-4">
+            ...and your understanding keeps evolving.   
+            </p>
+
+            <ul class="space-y-2 opacity-90">
+            <li>Descriptions are subjective</li>
+            <li>Interpretations change</li>
+            <li>Insights are iterative</li>
+            </ul>
+        </div>
+    </div>
+
+    <ul class="timeline my-10">
+    <li>
+        <div class="timeline-start timeline-box">Tension noticed</div>
+        <div class="timeline-middle">
+            {% include "circle_tension.njk" %}
+        </div>
+        <div class="timeline-end timeline-box">January</div>
+        <hr />
+    </li>
+    <li>
+        <hr />
+        <div class="timeline-start timeline-box">Insight A</div>
+        <div class="timeline-middle">
+            {% include "circle_insight.njk" %}
+        </div>
+        <div class="timeline-end timeline-box">February</div>
+        <hr />
+    </li>
+    <li>
+        <hr />
+        <div class="timeline-start timeline-box">Intervention 1</div>
+        <div class="timeline-middle">
+            {% include "circle_intervention.njk" %}
+        </div>
+        <div class="timeline-end timeline-box">April</div>
+        <hr />
+    </li>
+    <li>
+        <hr />
+        <div class="timeline-start timeline-box">Insight B</div>
+        <div class="timeline-middle">
+            {% include "circle_insight.njk" %}
+        </div>
+        <div class="timeline-end timeline-box">July</div>
+        <hr />
+    </li>
+    <li>
+        <hr />
+        <div class="timeline-start timeline-box">Effect visible</div>
+        <div class="timeline-middle">
+        {% include "circle_effect.njk" %}
+        </div>
+        <div class="timeline-end timeline-box">August</div>
+    </li>
+    </ul>
+
+    <p class="font-medium mt-6">
+      Organifanten is designed for slow work and unfolding understanding.
+    </p>
+    </div>
+  </section>
+
+
+  <!-- HOW IT WORKS -->
+  <section class="py-20 bg-accent">
+    <div class="max-w-3xl mx-auto px-6">
+      <h2 class="text-2xl font-semibold mb-6">
+        Working with elephants in the room
+        </h2>
+      <p class="mb-12 opacity-80 text-lg">
+        It’s not about quick wins or immediate action.<br>
+        It is about staying with the complexity of organizational change.
+      </p>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="card bg-base-100 shadow-sm">
+          <div class="card-body">
+            <h3 class="card-title text-warning">Notice</h3>
+            <p>Roughly describe tensions as you perceive them.</p>
+          </div>
+        </div>
+
+        <div class="card bg-base-100 shadow-sm">
+          <div class="card-body">
+            <h3 class="card-title text-info">Plan</h3>
+            <p>Prioritize which tensions you're working on and plan interventions.</p>
+          </div>
+        </div>
+
+        <div class="card bg-base-100 shadow-sm">
+          <div class="card-body">
+            <h3 class="card-title text-success">Reflect</h3>
+            <p>Log insights and effects as your understanding gradually evolves.</p>
+          </div>
+        </div>
+
+        
+      </div>
+    </div>
+  </section>
+
+
+  <!-- STORY -->
+<section class="py-20">
+  <div class="max-w-3xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+
+    <!-- TEXT (LEFT) -->
+    <div class="space-y-5">
+      <h2 class="text-2xl font-semibold mb-6">
+        Hi, I'm Nicolas 👋  
+      </h2>
+
+      <p>
+        I’ve spent years working with teams where my most important insights and ideas didn't fit into tools. I kept notebooks, loose pages,
+        scattered confluence pages, or left thoughts just in my head.
+     </p><p class="mt-4">
+        Organifanten started is my personal attempt to create a space where
+        sense-making can unfold slowly — without pressure to be right,
+        fast, or finished.
+      </p>
+
+      <p class="font-medium mt-6">
+        It is the tool I wished I had years ago.
+        <br>
+        <a href="https://www.linkedin.com/in/nicolas-megow/" target="_blank">→ Get in touch on LinkedIn</a>
+      </p>
+    </div>
+
+    <!-- IMAGE (RIGHT) -->
+    <div class="flex justify-center md:justify-end">
+      <img
+        src="assets/NicolasMegow.jpg"
+        alt="Creator of Organifanten"
+        class="rounded-3xl shadow-sm w-72 md:w-80 object-cover"
+      />
+    </div>
+
+  </div>
+</section>
+
+ <!-- FOOTER CTA -->
+  <section class="py-20 bg-base-200">
+    <div class="max-w-3xl mx-auto px-6">
+        <div class="flex justify-center">
+        <div class="flex w-24">{% include "elephant.njk" %}</div></div>
+      <div class="text-center pt-6">
+        <p class="font-medium text-xl text-center pb-6">
+        You already see the elephants.<br>  
+        Sit with them. Work with them.
+        </p>
+        <a class="btn btn-primary btn-lg">Describe a tension</a>
+        <p class="text-sm opacity-60 mt-3">
+            Free for individuals · 99€/month for organizations
+        </p>
+      </div>
+    </div>
+  </section>
+
+</div>

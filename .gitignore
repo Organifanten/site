@@ -1,0 +1,9 @@
+# 11ty build output
+_site/
+
+# Node dependencies
+node_modules/
+
+# Optional: local env / editor files
+.DS_Store
+.env

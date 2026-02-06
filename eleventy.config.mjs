@@ -6,7 +6,7 @@ import tailwindcss from "@tailwindcss/postcss";
 export default function (eleventyConfig) {
   eleventyConfig.on("eleventy.before", async () => {
     const tailwindInputPath = path.resolve("./src/styles/index.css");
-    const tailwindOutputPath = "./dist/styles/index.css";
+    const tailwindOutputPath = "./_site/styles/index.css";
     const cssContent = fs.readFileSync(tailwindInputPath, "utf8");
     const outputDir = path.dirname(tailwindOutputPath);
 

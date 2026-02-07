@@ -12,6 +12,9 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      ELEVENTY_ENV: production
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -26,7 +29,6 @@ jobs:
         run: npm install
 
       - name: Build Eleventy
-        # The --pathprefix is dynamically pulled from GitHub's environment
         run: npx @11ty/eleventy
 
       - name: Upload artifact

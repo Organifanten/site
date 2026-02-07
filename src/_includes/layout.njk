@@ -6,8 +6,14 @@
     <title>Organifanten | Take care of the organizational elephants</title>
     <link rel="stylesheet" href="/styles/index.css">  
     <link rel="icon" type="image/x-icon"  href="/assets/favicon.ico" sizes="any">
+    {% if site.isProd %}
+      {% include "analytics-loader.njk" %}
+    {% endif %}
   </head>
   <body class="min-h-screen bg-base-100 font-sans text-base-content">
     {{ content | safe }}
+    {% if site.isProd %}
+      {% include "consent-banner.njk" %}
+    {% endif %}
   </body>
 </html>

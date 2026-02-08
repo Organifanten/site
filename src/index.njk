@@ -175,12 +175,9 @@ layout: layout.njk
         Organifanten started is my personal attempt to create a space where
         sense-making can unfold slowly, without pressure to be right,
         fast, or finished.
-      </p>
-
-      <p class="font-medium mt-6">
-        It is the tool I wished I had years ago.
         <br>
-        <a href="https://www.linkedin.com/in/nicolas-megow/" target="_blank">→ Get in touch on LinkedIn</a>
+    </p><p class="mt-4">
+        It is the tool I wished I had years ago.
       </p>
     </div>
 
@@ -196,10 +193,27 @@ layout: layout.njk
   </div>
 </section>
 
+<!-- TESTIMONIALS -->
+<section class="py-20">
+    <div class="max-w-3xl mx-auto px-6">
+        <h2 class="text-2xl font-semibold mb-6">Product Backlog</h2>
+        <p>I'm working on these features next to make Organifanten more useful for you and me:</p>
+        <ol class="list-decimal list-inside space-y-2 mt-6">
+        {% for item in backlog %}
+            <li>{{ item }}</li>
+        {% endfor %}
+        </ol>
+         <p class="font-medium mt-6">
+            → Get feature updates
+        <a href="https://www.linkedin.com/in/nicolas-megow/" target="_blank" class="text-primary underline"> on LinkedIn</a> or send me your ideas and feedback.
+      </p>
+    </div>
+</section>
+
  <!-- FOOTER CTA -->
   <section class="py-20 bg-base-200">
     <div class="max-w-3xl mx-auto px-6">
-        <div class="flex justify-center">
+        <div class="flex justify-center text-primary">
         <div class="flex w-24">{% include "elephant.njk" %}</div></div>
       <div class="text-center pt-6">
         <p class="font-medium text-xl text-center pb-6">

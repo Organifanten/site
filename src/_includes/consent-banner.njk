@@ -1,7 +1,10 @@
-<div id="consent-banner" class="consent hidden">
-  <p>We use privacy-friendly analytics to improve this site.</p>
-  <button id="consent-accept">Accept</button>
-  <button id="consent-decline">Decline</button>
+<div id="consent-banner" class="fixed bottom-0 left-0 right-0 z-50 p-4 bg-accent hidden">
+    <div class="max-w-lg mx-auto flex items-center gap-4">
+            <p>We use analytics to improve this site.</p>
+            <button class="btn btn-primary btn-sm" id="consent-accept">Accept</button>
+            <button class="btn btn-primary btn-sm btn-outline" 
+            id="consent-decline">Decline</button>
+    </div>
 </div>
 
 <script src="/assets/consent.js" defer></script>

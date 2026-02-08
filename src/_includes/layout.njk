@@ -12,7 +12,7 @@
   </head>
   <body class="min-h-screen bg-base-100 font-sans text-base-content">
     {{ content | safe }}
-    {% if site.isProd %}
+    {% if side.isProd %}
       {% include "consent-banner.njk" %}
     {% endif %}
   </body>

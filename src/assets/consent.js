@@ -11,14 +11,14 @@ function updateConsent(granted) {
     });
   }
 
-  if (granted && window.enableAnalytics) {
-    window.enableAnalytics();
+  if (granted && globalThis.enableAnalytics) {
+    globalThis.enableAnalytics();
   }
 }
 
 const saved = localStorage.getItem(KEY);
 
-if (!saved) {
+if (saved === null) {
   banner?.classList.remove("hidden");
 } else {
   updateConsent(saved === "granted");

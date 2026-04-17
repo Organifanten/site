@@ -1,0 +1,24 @@
+---
+layout: layout.njk
+title: Imprint | Organifanten
+---
+
+<div class="min-h-screen bg-base-100 text-base-content">
+  <div class="navbar bg-base-100 px-8">
+    <div class="flex-1">
+      <a href="/" class="text-2xl font-bold text-primary">Organifanten</a>
+    </div>
+    <div class="flex-none">
+      <a href="https://app.organifanten.com/login/" class="btn btn-primary btn-outline">Login</a>
+    </div>
+  </div>
+
+  <section class="py-20">
+    <div class="max-w-3xl mx-auto px-6">
+      <div class="prose prose-lg max-w-none">
+        {{ imprint | markdown | safe }}
+      </div>
+    </div>
+  </section>
+  {% include "footer.njk" %}
+</div>

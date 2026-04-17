@@ -1,7 +1,10 @@
-import fs from "fs";
-import path from "path";
+import fs from "node:fs";
+import path from "node:path";
 import postcss from "postcss";
 import tailwindcss from "@tailwindcss/postcss";
+import markdownIt from "markdown-it";
+
+const md = markdownIt({ html: true });
 
 export default function (eleventyConfig) {
   eleventyConfig.on("eleventy.before", async () => {
@@ -21,6 +24,8 @@ export default function (eleventyConfig) {
 
     fs.writeFileSync(tailwindOutputPath, result.css);
   });
+  eleventyConfig.addDataExtension("md", (contents) => contents);
+  eleventyConfig.addFilter("markdown", (content) => md.render(content));
   eleventyConfig.addPassthroughCopy("src/assets");
 
   return {

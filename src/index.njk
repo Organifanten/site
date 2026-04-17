@@ -152,8 +152,10 @@ layout: layout.njk
           </div>
         </div>
 
-        
       </div>
+      <p class="mt-10 text-sm opacity-70">
+        Have more questions? Read the <a href="/faq/" class="text-primary underline">FAQ</a>.
+      </p>
     </div>
   </section>
 
@@ -210,22 +212,6 @@ layout: layout.njk
     </div>
 </section>
 
- <!-- FOOTER CTA -->
-  <section class="py-20 bg-base-200">
-    <div class="max-w-3xl mx-auto px-6">
-        <div class="flex justify-center text-primary">
-        <div class="flex w-24">{% include "elephant.njk" %}</div></div>
-      <div class="text-center pt-6">
-        <p class="font-medium text-xl text-center pb-6">
-        You already see the elephants.<br>  
-        Sit with them. Work with them.
-        </p>
-        <a href="https://app.organifanten.com/register/" class="btn btn-primary btn-lg">Describe a tension</a>
-        <p class="text-sm opacity-60 mt-3">
-            Free for individuals · 99€/month for organizations
-        </p>
-      </div>
-    </div>
-  </section>
+  {% include "footer.njk" %}
 
 </div>

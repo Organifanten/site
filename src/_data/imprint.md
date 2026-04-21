@@ -2,26 +2,29 @@
 
 ## Information according to § 5 TMG
 
-Nicolas Megow  
-[Street and House Number]  
-[Postal Code, City]  
+Strategiepark UG (haftungsbeschränkt)  
+Bartloffer Stieg 43  
+37359 Effelder  
 Germany
+
+Represented by: Nicolas Megow
 
 ## Contact
 
-E-Mail: [hello@organifanten.com]  
-LinkedIn: [linkedin.com/in/nicolas-megow](https://www.linkedin.com/in/nicolas-megow/)
+E-Mail: [hello@organifanten.com](mailto:hello@organifanten.com)
 
-## VAT Identification Number
+## Company Registration
 
-VAT ID according to § 27 a of the German VAT Act (Umsatzsteuergesetz):  
-DE[VAT Number]
+Registered in the commercial register.  
+Registry court: Amtsgericht Jena  
+Registration number: HRB 519063  
+VAT ID (§ 27 a UStG): DE311728934
 
 ## Responsible for content according to § 55 Abs. 2 RStV
 
 Nicolas Megow  
-[Street and House Number]  
-[Postal Code, City]  
+Bartloffer Stieg 43  
+37359 Effelder  
 Germany
 
 ## Dispute Resolution

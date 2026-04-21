@@ -4,11 +4,12 @@
 
 The controller responsible for data processing on this website and the Organifanten application is:
 
-Nicolas Megow  
-[Street and House Number]  
-[Postal Code, City]  
+Strategiepark UG (haftungsbeschränkt)  
+Bartloffer Stieg 43  
+37359 Effelder  
 Germany  
-E-Mail: [hello@organifanten.com]
+Represented by: Nicolas Megow  
+E-Mail: [hello@organifanten.com](mailto:hello@organifanten.com)
 
 ## 2. Overview
 
@@ -36,7 +37,7 @@ When you create an account, we collect your name, email address, and the name of
 
 ### Application Data
 
-All tensions, tension moments, insights, interventions, effects, and system structures you enter in Organifanten are stored on our servers. This data is strictly private — it is not shared with other users or third parties. It is processed on the basis of Art. 6(1)(b) GDPR.
+All tensions, tension moments, insights, interventions, effects, and system structures you enter in Organifanten are stored on our servers. This data is strictly private. It is not shared with other users or third parties. It is processed on the basis of Art. 6(1)(b) GDPR.
 
 ### Data Retention
 

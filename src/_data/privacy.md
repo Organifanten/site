@@ -2,7 +2,7 @@
 
 ## 1. Controller
 
-The controller responsible for data processing on this website and the Organifanten application is:
+The controller responsible for data processing on this website is:
 
 Strategiepark UG (haftungsbeschränkt)  
 Bartloffer Stieg 43  
@@ -11,66 +11,87 @@ Germany
 Represented by: Nicolas Megow  
 E-Mail: [hello@organifanten.com](mailto:hello@organifanten.com)
 
-## 2. Overview
+## 2. Scope of This Policy
 
-We take the protection of your personal data seriously. This privacy policy explains what data we collect, why we collect it, and what rights you have regarding your data. Processing is carried out in accordance with the General Data Protection Regulation (GDPR) and the German Federal Data Protection Act (BDSG).
+This privacy policy applies to the Organifanten website as a static marketing website. This site does not offer user accounts, an in-browser application, or any feature where visitors can create or store organizational data on the site itself.
 
-## 3. Data Collected When Visiting This Website
+Processing is carried out in accordance with the General Data Protection Regulation (GDPR) and applicable German data protection law.
+
+## 3. Data Processed When Visiting This Website
 
 ### Server Log Files
 
-When you visit this website, our hosting provider automatically collects and stores information in server log files that your browser transmits to us. This includes your IP address, browser type and version, operating system, referrer URL, time of the server request, and the pages accessed. This data is processed on the basis of Art. 6(1)(f) GDPR (legitimate interest in the secure and error-free operation of the website). The data is deleted as soon as it is no longer needed, typically after 7 days.
+When you visit this website, the hosting provider may automatically process technical access data in server log files. This may include your IP address, browser type and version, operating system, referrer URL, date and time of the request, and requested pages.
 
-### Cookies
+This processing is based on Art. 6(1)(f) GDPR. Our legitimate interest is the secure, stable, and technically correct delivery of the website.
 
-This website uses technically necessary cookies to ensure proper functionality. No tracking or advertising cookies are set without your prior consent. If analytics cookies are used, you will be asked for your consent via the cookie banner on first visit. You may withdraw your consent at any time by adjusting your browser settings or clearing cookies.
+We do not use these log files to identify individual visitors.
 
-### Analytics
+### Cookies and Consent
 
-We use analytics tools to understand how visitors interact with this website. This is only carried out with your explicit consent (Art. 6(1)(a) GDPR), which you can grant or withdraw via the consent banner. Analytics data is anonymized and not linked to individual identities.
+This website uses a consent mechanism to store your analytics preference. Technically necessary storage may be used for that purpose.
 
-## 4. Data Collected When Using the Organifanten Application
+No analytics tracking is activated before you give consent.
 
-### Account Registration
+### Google Analytics
 
-When you create an account, we collect your name, email address, and the name of your organization. This data is required to provide the service and is processed on the basis of Art. 6(1)(b) GDPR (performance of a contract).
+If you consent, this website uses Google Analytics, a web analytics service provided by Google. Google Analytics helps us understand how visitors use the website so we can improve the content and structure of the site.
 
-### Application Data
+Google Analytics is only loaded after your consent via the consent banner. The legal basis is Art. 6(1)(a) GDPR.
 
-All tensions, tension moments, insights, interventions, effects, and system structures you enter in Organifanten are stored on our servers. This data is strictly private. It is not shared with other users or third parties. It is processed on the basis of Art. 6(1)(b) GDPR.
+When activated, Google Analytics may process information such as:
 
-### Data Retention
+- pages visited
+- approximate location derived from IP address
+- device and browser information
+- interactions with the website
 
-Your account data and application data are retained for as long as your account is active. When you delete your account, all associated data is permanently and irrevocably deleted.
+IP anonymization is enabled on this website.
 
-## 5. Your Rights Under the GDPR
+You can withdraw your consent at any time by clearing the relevant browser storage or revisiting the site and adjusting your choice through the consent banner mechanism.
 
-You have the following rights regarding your personal data:
+## 4. Contact by E-Mail
 
-- **Right of access** (Art. 15 GDPR): You may request information about what personal data we process about you.
-- **Right to rectification** (Art. 16 GDPR): You may request that inaccurate data be corrected.
-- **Right to erasure** (Art. 17 GDPR): You may request that your personal data be deleted, subject to legal retention obligations.
-- **Right to restriction of processing** (Art. 18 GDPR): You may request that processing of your data be restricted.
-- **Right to data portability** (Art. 20 GDPR): You may request a copy of your data in a structured, machine-readable format.
-- **Right to object** (Art. 21 GDPR): You may object to processing based on legitimate interests.
-- **Right to withdraw consent** (Art. 7(3) GDPR): You may withdraw consent at any time, without affecting the lawfulness of processing based on consent before its withdrawal.
+If you contact us by e-mail, we process the information you provide in your message, including your e-mail address and any other personal data you choose to send.
 
-To exercise any of these rights, please contact us at: [hello@organifanten.com]
+We process this data only to handle your inquiry. Depending on the nature of the request, the legal basis is either Art. 6(1)(b) GDPR (pre-contractual communication) or Art. 6(1)(f) GDPR (legitimate interest in responding to inquiries).
 
-## 6. Right to Lodge a Complaint
+## 5. External Links
 
-If you believe that the processing of your personal data violates the GDPR, you have the right to lodge a complaint with a supervisory authority, in particular in the EU Member State of your habitual residence, place of work, or the place of the alleged infringement.
+This website may contain links to external websites or services. When you follow such a link, the privacy policy of the respective third party applies. We have no control over third-party data processing.
 
-## 7. Data Transfers to Third Countries
+## 6. Recipients and Third-Country Transfers
 
-We do not transfer your personal data to third countries outside the European Economic Area (EEA) without appropriate safeguards.
+Personal data may be processed by technical service providers used to operate this website, in particular the hosting provider and, if consent is given, Google Analytics.
 
-## 8. Links to Third-Party Services
+When Google services are used, personal data may be transferred to countries outside the European Union or the European Economic Area, in particular the United States. Such transfers take place only on the basis of your consent and subject to the safeguards provided by the respective provider.
 
-This website contains links to external services (e.g., LinkedIn). We have no control over the data practices of those services and encourage you to read their respective privacy policies.
+## 7. Storage Duration
 
-## 9. Changes to This Policy
+We store personal data only for as long as necessary for the purposes described in this policy or as long as statutory retention obligations require.
 
-We reserve the right to update this privacy policy. The current version is always available at this URL. We recommend checking this page periodically for any changes.
+If you contact us by e-mail, we retain the communication for as long as necessary to process and document the inquiry.
 
-_Last updated: April 2026_
+## 8. Your Rights
+
+You have the following rights under the GDPR, subject to the legal requirements:
+
+- **Right of access** (Art. 15 GDPR)
+- **Right to rectification** (Art. 16 GDPR)
+- **Right to erasure** (Art. 17 GDPR)
+- **Right to restriction of processing** (Art. 18 GDPR)
+- **Right to data portability** (Art. 20 GDPR)
+- **Right to object** (Art. 21 GDPR)
+- **Right to withdraw consent** at any time with future effect (Art. 7(3) GDPR)
+
+To exercise your rights, please contact: [hello@organifanten.com](mailto:hello@organifanten.com)
+
+## 9. Right to Lodge a Complaint
+
+You have the right to lodge a complaint with a supervisory authority if you believe that the processing of your personal data violates data protection law.
+
+## 10. Changes to This Policy
+
+We may update this privacy policy if the website or the legal situation changes. The current version is always available on this page.
+
+_Last updated: July 2026_

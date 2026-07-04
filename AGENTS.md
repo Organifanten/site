@@ -35,7 +35,7 @@ Google Analytics (`G-L983C2Y3JS`) only loads when `ELEVENTY_ENV=production` (gat
 
 ## CI / deploy
 
-Push to `main` triggers GitHub Pages deploy via `.github/workflows/deploy.yml`. Sets `ELEVENTY_ENV=production` in CI.
+Push to `main` triggers GitHub Pages deploy via `.github/workflows/deploy.yml`. Sets `ELEVENTY_ENV=production` in CI. Uses `upload-pages-artifact@v5` and `deploy-pages@v5` (requires Node 24 runner).
 
 ## Notable
 

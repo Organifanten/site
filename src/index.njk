@@ -4,166 +4,122 @@ layout: layout.njk
 
 <div class="min-h-screen bg-base-100 text-base-content">
   <!-- HERO -->
-  <section class="py-6">
-    <div class="text-center max-w-3xl mx-auto">
-      <div>
-        <div  class="w-lg h-lg text-primary flex justify-center mx-auto my-6">{% include "elephant.njk" %}</div>
-        <h1 class="text-3xl md:text-5xl font-semibold leading-tight">
-          Work <span class="text-primary underline">on</span> your organization <br>(not just in it).
-        </h1>
-
-        <p class="mt-6 text-lg opacity-80">
-          Organifanten is your private space to work on tensions in your organization <br> over months, not sprints.
-        </p>
-
-
-      </div>
+  <section class="py-12 md:py-20">
+    <div class="text-center max-w-3xl mx-auto px-6">
+      <div class="w-lg h-lg text-primary flex justify-center mx-auto mb-6">{% include "elephant.njk" %}</div>
+      <h1 class="text-4xl md:text-5xl font-semibold leading-tight mb-6">
+        Work <span class="text-primary underline">on</span> your organization<br>(not just in it).
+      </h1>
+      <a href="/consulting/session/" class="btn btn-primary text-lg">
+        Book a Consulting Session
+      </a>
     </div>
   </section>
 
-
-  <!-- RECOGNITION -->
-  <section class="py-20">
-    <div class="max-w-3xl mx-auto px-6 space-y-6 text-lg leading-relaxed">
-      <h2 class="text-2xl font-medium">
-        Organizational elephants are in the room.
-        <br>
-        It's your job to work with them.
-      </h2>
-    <div class="grid md:grid-cols-2 gap-8">
-        <div>
-            <p class="font-medium text-primary pb-4">
-                This is slow work...
-            </p>
-            <ul class="space-y-2 opacity-90">
-            <li>Tensions emerge gradually</li>
-            <li>Interventions require the right timing</li>
-            <li>Effects may appear months after</li>
-            </ul>
-        </div>
-        <div>
-            <p class="font-medium text-primary pb-4">
-            ...and your understanding keeps evolving.   
-            </p>
-
-            <ul class="space-y-2 opacity-90">
-            <li>Observations are subjective</li>
-            <li>Interpretations change</li>
-            <li>Insights are iterative</li>
-            </ul>
-        </div>
-    </div>
-
-    <ul class="list-none my-10 space-y-4">
-    <li class="flex items-center gap-4">
-        <span>Tension noticed</span>
-        <span class="shrink-0">{% include "circle_tension.njk" %}</span>
-        <span class="text-sm opacity-60">January</span>
-    </li>
-    <li class="flex items-center gap-4">
-        <span>Insight A</span>
-        <span class="shrink-0">{% include "circle_insight.njk" %}</span>
-        <span class="text-sm opacity-60">February</span>
-    </li>
-    <li class="flex items-center gap-4">
-        <span>Intervention 1</span>
-        <span class="shrink-0">{% include "circle_intervention.njk" %}</span>
-        <span class="text-sm opacity-60">April</span>
-    </li>
-    <li class="flex items-center gap-4">
-        <span>Insight B</span>
-        <span class="shrink-0">{% include "circle_insight.njk" %}</span>
-        <span class="text-sm opacity-60">July</span>
-    </li>
-    <li class="flex items-center gap-4">
-        <span>Effect visible</span>
-        <span class="shrink-0">{% include "circle_effect.njk" %}</span>
-        <span class="text-sm opacity-60">August</span>
-    </li>
-    </ul>
-
-    <p class="font-medium mt-6">
-      Organifanten is designed for slow work and unfolding understanding.
-    </p>
-    <p class="mt-6">
-        Got more questions? Here are our <a href="/faq/" class="text-primary underline">FAQ</a>.
-      </p>
-    </div>
-  </section>
-
-
-  <!-- HOW IT WORKS -->
+  <!-- THREE PHILOSOPHY PILLARS -->
   <section class="py-20 bg-accent">
     <div class="max-w-3xl mx-auto px-6">
-      <h2 class="text-2xl font-semibold mb-6">
-        Working with elephants in the room:
-        </h2>
-      <p class="mb-12 opacity-80 text-lg">
-        It’s not about quick wins or immediate action.<br>
-        It is about staying with the complexity of organizational change.
-      </p>
+      <h2 class="text-3xl font-semibold mb-12 text-center">Our approach</h2>
       <div class="grid md:grid-cols-3 gap-8">
-        <div class="rounded-xl bg-base-100 shadow-sm">
-          <div class="p-6">
-            <h3 class="text-xl font-semibold text-warning">Notice</h3>
-            <p>Roughly describe tensions as you perceive them.</p>
-          </div>
+        <!-- Brain Budget -->
+        <div class="rounded-xl bg-base-100 shadow-sm p-6">
+          <h3 class="text-xl font-semibold text-primary mb-3">Brain Budget</h3>
+          <p class="opacity-90">
+            Brains conserve energy. Understanding this hidden driver of behavior changes everything about how you design interventions.
+          </p>
         </div>
 
-        <div class="rounded-xl bg-base-100 shadow-sm">
-          <div class="p-6">
-            <h3 class="text-xl font-semibold text-info">Plan</h3>
-            <p>Prioritize which tensions you're working on and plan interventions.</p>
-          </div>
+        <!-- Via Negativa -->
+        <div class="rounded-xl bg-base-100 shadow-sm p-6">
+          <h3 class="text-xl font-semibold text-primary mb-3">Via Negativa</h3>
+          <p class="opacity-90">
+            Remove friction and hidden constraints before adding frameworks. Subtract before you add.
+          </p>
         </div>
 
-        <div class="rounded-xl bg-base-100 shadow-sm">
-          <div class="p-6">
-            <h3 class="text-xl font-semibold text-success">Reflect</h3>
-            <p>Log insights and effects as your understanding gradually evolves.</p>
-          </div>
+        <!-- Humble Consulting -->
+        <div class="rounded-xl bg-base-100 shadow-sm p-6">
+          <h3 class="text-xl font-semibold text-primary mb-3">Humble Consulting</h3>
+          <p class="opacity-90">
+            Your next step is discovered together through structured questions, not prescribed top-down.
+          </p>
         </div>
-
       </div>
-
     </div>
   </section>
 
+  <!-- HOW THIS CHANGES YOUR WORK -->
+  <section class="py-20">
+    <div class="max-w-3xl mx-auto px-6">
+      <h2 class="text-3xl font-semibold mb-8 text-center">How this changes your work</h2>
+      <div class="prose prose-invert max-w-none">
+        <p class="text-lg opacity-90 text-center mb-8">
+          From reaction to clarity. From adding solutions to removing constraints. From advice to discovery.
+        </p>
+      </div>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="border-l-4 border-primary pl-6">
+          <p class="font-semibold text-primary mb-2">Before</p>
+          <ul class="space-y-2 opacity-80">
+            <li>React to the loudest problem</li>
+            <li>Add new processes and tools</li>
+            <li>Tell the team what to do</li>
+          </ul>
+        </div>
+        <div class="border-l-4 border-success pl-6">
+          <p class="font-semibold text-success mb-2">After</p>
+          <ul class="space-y-2 opacity-80">
+            <li>Understand the root pattern</li>
+            <li>Remove what's really blocking</li>
+            <li>Help the team find their way</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  <!-- STORY -->
-<section class="py-20">
-  <div class="max-w-3xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
-
-    <!-- TEXT (LEFT) -->
-    <div class="space-y-5">
-      <h2 class="text-2xl font-semibold mb-6">
-        Hi, I'm Nicolas 👋  
-      </h2>
-
-      <p>
-        I’ve spent 15 years working with teams and organizations. My most important insights and ideas didn't fit into any tools. I kept notebooks, loose pages,
-        scattered confluence pages, or left thoughts just in my head.
-     </p><p class="mt-4">
-        Organifanten started is my personal attempt to create a space where
-        sense-making can unfold slowly, without pressure to be right,
-        fast, or finished.
-        <br>
-    </p><p class="mt-4">
-        It is the tool I wished I had years ago.
+  <!-- OFFERS -->
+  <section class="py-20 bg-accent">
+    <div class="max-w-3xl mx-auto px-6">
+      <h2 class="text-3xl font-semibold mb-4 text-center">What we offer</h2>
+      <p class="text-center opacity-80 mb-12 text-lg">
+        Three ways to work together, depending on where you are.
       </p>
-    </div>
+      
+      <div class="grid md:grid-cols-3 gap-6 mb-12">
+        <!-- Consulting Session -->
+        <a href="/consulting/session/" class="group rounded-xl bg-base-100 shadow-sm p-6 hover:shadow-md transition">
+          <h3 class="text-xl font-semibold text-primary mb-2 group-hover:underline">Consulting Session</h3>
+          <p class="text-sm opacity-80 mb-4">90-minute thinking partnership</p>
+          <p class="font-semibold text-lg">€500</p>
+          <p class="text-xs opacity-60 mt-2">or €3k for a pass of 8</p>
+        </a>
 
-    <!-- IMAGE (RIGHT) -->
-    <div class="flex justify-center md:justify-end">
-      <img
-        src="assets/NicolasMegow.jpg"
-        alt="Creator of Organifanten"
-        class="rounded-3xl shadow-sm w-72 md:w-80 object-cover"
-      />
-    </div>
+        <!-- Change Audit -->
+        <a href="/consulting/change-audit/" class="group rounded-xl bg-base-100 shadow-sm p-6 hover:shadow-md transition">
+          <h3 class="text-xl font-semibold text-primary mb-2 group-hover:underline">Change Audit</h3>
+          <p class="text-sm opacity-80 mb-4">Diagnostic over 1 week</p>
+          <p class="font-semibold text-lg">€5,000</p>
+          <p class="text-xs opacity-60 mt-2">10 interviews + findings document</p>
+        </a>
 
-  </div>
-</section>
+        <!-- Culture Portrait -->
+        <a href="/consulting/culture-portrait/" class="group rounded-xl bg-base-100 shadow-sm p-6 hover:shadow-md transition">
+          <h3 class="text-xl font-semibold text-primary mb-2 group-hover:underline">Culture Portrait</h3>
+          <p class="text-sm opacity-80 mb-4">1-week organizational characterization</p>
+          <p class="font-semibold text-lg">€5,000</p>
+          <p class="text-xs opacity-60 mt-2">Before any change is designed</p>
+        </a>
+      </div>
+
+      <!-- Free Resources Hook -->
+      <div class="bg-base-100 rounded-xl p-8 text-center">
+        <h3 class="text-xl font-semibold mb-2">Start with free resources</h3>
+        <p class="opacity-80 mb-4">Explore our lessons and guides on team building and organizational work.</p>
+        <a href="/resources/" class="text-primary font-semibold hover:underline">Browse Resources →</a>
+      </div>
+    </div>
+  </section>
 
   {% include "footer.njk" %}
 

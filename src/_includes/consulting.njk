@@ -1,0 +1,26 @@
+---
+layout: layout.njk
+---
+
+<div class="min-h-screen bg-base-100 text-base-content flex flex-col">
+  <div class="max-w-3xl mx-auto px-6 py-20 w-full flex-1">
+    <a href="/consulting/" class="text-primary text-sm font-semibold hover:underline mb-4 inline-block">← Back to Consulting</a>
+    
+    <h1 class="text-4xl md:text-5xl font-semibold mb-2">{{ title }}</h1>
+    <p class="text-lg opacity-80 mb-8">{{ subtitle }}</p>
+
+    <div class="prose max-w-none mb-12">
+      {{ content | markdown | safe }}
+    </div>
+
+    <!-- CTA -->
+    <div class="bg-accent rounded-xl p-8 text-center mt-12">
+      <p class="font-semibold mb-4">Ready to get started?</p>
+      <a href="mailto:hello@organifanten.com" class="btn btn-primary">
+        Book a {{ title }}
+      </a>
+    </div>
+  </div>
+
+  {% include "footer.njk" %}
+</div>

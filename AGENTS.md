@@ -18,16 +18,7 @@ No tests, no linter, no typechecker, no formatter configured. Verify output by r
 
 ## Content model
 
-| Route       | Source file                        | Data variable |
-|-------------|------------------------------------|---------------|
-| `/`         | `src/index.njk`                    | —             |
-| `/faq/`     | `src/faq.njk`                      | `{{ faq }}`   |
-| `/imprint/` | `src/imprint.njk`                  | `{{ imprint }}` |
-| `/privacy/` | `src/privacy.njk`                  | `{{ privacy }}` |
-
-Markdown content in `src/_data/` is loaded via `addDataExtension("md", ...)` and rendered with `{{ var | markdown | safe }}` (using `markdown-it` with `html: true`).
-
-Product backlog is `src/_data/backlog.json`, rendered as an ordered list in `index.njk`.
+See `docs/content_model.md` for routes, templates, and data loading.
 
 ## Analytics
 
@@ -40,6 +31,7 @@ Push to `main` triggers GitHub Pages deploy via `.github/workflows/deploy.yml`. 
 ## Notable
 
 - `src/assets/` is passthrough-copied to the output
-- `_site/` and `docs/` are gitignored
+- `_site/` is gitignored; `/docs/` contains planning and language documentation (not output)
 - No separate PostCSS config — the Tailwind build is embedded in the Eleventy config
 - Files under `src/_data/` that are `.md` are NOT Eleventy data files in the traditional sense — they're processed by a custom extension handler and accessed as template variables for the `markdown` filter
+- Nav structure: "Consulting" (first, right-aligned) → `/consulting/`, "Resources" (second) → `/resources/`

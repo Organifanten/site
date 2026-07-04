@@ -2,75 +2,92 @@
 
 _Making sense of the "elephants in the room."_
 
-## 1. The Method: Why Organifanten?
+## 1. The Method
 
-**What is Organifanten, and who is it for?**
-Organifanten helps you make sense of situations at work that feel “off”: recurring friction, avoided topics, or decisions that don't add up. It is designed for leaders, consultants, and agile coaches who need a structured space to reflect on organizational dynamics before jumping into "fix-it" mode.
+**What is Organifanten, and what is "Brain Budget"?**
+Organifanten helps you work on organizational tensions over time. Brain Budget is a core insight: brains are wired to conserve energy, which shapes how people behave in systems. Understanding this hidden driver changes everything about how you design interventions.
 
-**How is this different from tools like Jira or Trello?**
-Tools like Jira manage tasks (the what). Organifanten manages tensions (the why). It works one step earlier: before you have a clear ticket or a defined solution. It helps you ground your actions in actual understanding rather than reactive fire-fighting.
+**What is "Via Negativa"?**
+Via Negativa means removing constraints before adding frameworks. We subtract friction and bureaucracy instead of layering on new processes. It's about clearing obstacles so the organization can move naturally.
 
-**Isn’t this just overthinking instead of acting?**
-It’s the opposite: it’s deliberate action. Organifanten prevents you from wasting energy on "solutions" that don't address the root cause. You still act, but your interventions are more surgical and better understood.
+**What is "Humble Consulting"?**
+Humble Consulting is the practice of discovering the client's next step together through structured questions, not prescribing top-down solutions. Your way forward becomes visible through dialogue, not advice.
 
-**Why wouldn’t I just use a notebook?**
-A notebook is a graveyard for isolated notes. Organifanten adds a learning structure: it connects your observations to your actions and tracks the results over time. It turns "I think I noticed something" into a visible history of organizational change.
-
-**How much time does this take?**
-Organifanten is built for "micro-reflection." Logging a tension takes 2 minutes; adding an insight takes 30 seconds. It isn't about writing essays:. It is about capturing high-value signals as they happen so you don't lose the pattern.
+**How is this different from typical consulting?**
+Most consulting advises "you should do X." Humble consulting asks "what would happen if we removed Y?" The client's insight emerges from the questions, and they own the solution completely.
 
 ---
 
-## 2. Core Concepts: Tensions, Moments & Systems
+## 2. Consulting Session
 
-**What is a tension?**
-A tension is a raw observation. It is a signal that something is wrong, unclear, or contradictory.
+**What is a Consulting Session?**
+A 90-minute thinking partnership. You bring a real organizational situation; we ask structured questions until your next step becomes visible. No agenda, no templates, just clarity.
 
-- It is: “We keep discussing the same topic in meetings, but never reach a decision.”
+**Who is this for?**
+Leaders, managers, and consultants working with organizational tensions. Anyone who needs to think through a specific challenge in your organization.
 
-- It is not (yet): A task, a ticket, or a blame-game.
+**How much does it cost?**
+€500 per session (90 minutes). If you want ongoing support, we offer a pass of 8 sessions for €3,000 (€375 per session).
 
-**How do I engage with tensions?**
-You can evolve your understanding of a tension with threeelements:
-
-1. Insight: “I realize we lack a clear decision-maker here.”
-
-2. Intervention: “I will propose a RACI matrix for the next meeting.”
-
-3. Effect: “The meeting ended 10 minutes early with a clear outcome.”
-
-**What is the difference between a tension and an intervention?**
-A tension is a question you are asking of the system. An intervention is an experiment you run to find the answer. You don't start with actions; they emerge naturally as your understanding improves.
-
-**What is a private cloud and a system?**
-A system is the part of the organization you are looking at (e.g., "The Marketing Team"). A private cloud is your safe workspace where you store the tensions you notice for that specific system. Each private cloud focuses on one system to keep your context clear.
+**How do we book?**
+<a href="/consulting/session/">Learn more about Consulting Sessions</a> or <a href="mailto:hello@organifanten.com">contact us</a> to schedule.
 
 ---
 
-## 3. Privacy & Accounts
+## 3. Change Audit
 
-**Can my team see my tensions?**
-No. Privacy is a core feature. Sensemaking requires a "safe space" where you can record unfinished thoughts and messy observations without needing to be "right" or polished. Everything in your private clouds is visible only to you.
+**What is a Change Audit?**
+A diagnostic engagement: we conduct 10 interviews with your team, review your change materials, then deliver a 3-page findings document plus a debrief session. The output is insight into how your organization is experiencing the change.
 
-**Can multiple people work on the same tensions?**
-Not yet. Organifanten is currently optimized for individual reflection. We believe the most powerful insights often come from a single observer connecting the dots first.
+**When should I use a Change Audit?**
+Use it when you have a specific change, transition, or transformation plan that can be audited. It answers: "How is this landing? What are the hidden obstacles?"
 
-**How many workspaces and systems can I have?**
+**What's the cost and timeline?**
+€5,000 total. The engagement runs over 1 week (interviews + analysis + debrief).
 
-- Workspaces: Up to 5 active private clouds.
-- Systems/Tensions/Moments: Unlimited.
+**What's the deliverable?**
+A 3-page findings document plus a 90-minute debrief session to discuss implications and next steps.
 
-Priority: You can drag and drop tensions to reflect what’s most important to you right now.
-
-**What happens if I delete my account?**
-All data,including your systems, tensions, and history, is permanently deleted. We do not keep "ghost" copies; your data is yours.
+**How is this different from Culture Portrait?**
+A Change Audit evaluates how a _specific change_ is landing. A Culture Portrait is a broader characterization of your organizational culture before any change is designed. Use Change Audit when you're in motion; use Culture Portrait when you need clarity first.
 
 ---
 
-## 4. Getting Started
+## 4. Culture Portrait
 
-**Do I need to have a tension in mind to register?**
-No. You can sign up, model your system (defining roles like "Team Lead" or units like "Department"), and wait for the first "elephant" to appear in the room.
+**What is a Culture Portrait?**
+A paid characterization of your organization's culture—how it actually works, not how it's supposed to work. Delivered as a 3-page document plus a debrief session. _Use before any change is designed._
 
-**How do I get started?**
-Sign up with your email and organization name. You’ll be guided through a quick onboarding where you can name your first system and log your first tension. You’ll be up and running in less than 3 minutes.
+**When should I use a Culture Portrait?**
+When you're stepping into a new organization, preparing for transformation, or sensing that your culture needs to shift but you're not sure how. It answers: "What's really going on here?"
+
+**What's the cost and timeline?**
+€5,000 total. We need 1 week of on-site or remote access to observe, interview, and sense the organization.
+
+**What's the deliverable?**
+A 3-page Culture Portrait plus a 90-minute debrief session. No recommendations (unless you ask); just clarity about what is.
+
+**How is this different from Change Audit?**
+Culture Portrait is diagnostic about _your culture now_. Change Audit is diagnostic about _how a specific change is landing_. Culture Portrait comes first; Change Audit comes later if you're implementing change.
+
+---
+
+## 5. Practical
+
+**Can we work remotely?**
+Yes. Sessions work equally well via video. Interviews for audits or portraits can be remote or on-site depending on your preference.
+
+**What languages do we work in?**
+English and German. Let us know your preference when booking.
+
+**How long before we see results?**
+Consulting Sessions show insight immediately (by the end of the session). Audits and Portraits deliver insights within 1 week of the engagement. Changes in your organization may take months.
+
+**How do we pay?**
+Invoice upon booking, due before the engagement begins. We accept bank transfer in EUR.
+
+**Do you offer follow-up support after an audit or portrait?**
+Yes. Many clients book Consulting Sessions after an audit to think through implications. We can discuss options when we debrief.
+
+**Got other questions?**
+<a href="mailto:hello@organifanten.com">Contact us directly</a>—we're happy to talk.

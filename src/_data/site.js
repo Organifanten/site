@@ -1,4 +1,6 @@
-const isProd = process.env.ELEVENTY_ENV === "production" && process.env.CONTEXT !== "deploy-preview"; // Netlify previews off
+const isProd =
+  process.env.ELEVENTY_ENV === "production" &&
+  process.env.CONTEXT !== "deploy-preview"; // Netlify previews off
 
 module.exports = {
   isProd,

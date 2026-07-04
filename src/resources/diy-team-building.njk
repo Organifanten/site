@@ -48,26 +48,12 @@ title: DIY Team Building | Organifanten
         why the tasks are designed the way they are, and how to get the most out of each level.
       </p>
       <div class="space-y-4">
-        <div class="rounded-lg border border-base-300 p-4">
-          <a href="/resources/diy-team-building/lesson-1/" class="text-primary font-semibold hover:underline">Lesson 1: Understanding Teams as Systems</a>
-          <p class="text-sm opacity-60 mt-1">Teams are living systems, not machines. Learn what that means for your team development.</p>
-        </div>
-        <div class="rounded-lg border border-base-300 p-4">
-          <a href="/resources/diy-team-building/lesson-2/" class="text-primary font-semibold hover:underline">Lesson 2: Proximity and Difference</a>
-          <p class="text-sm opacity-60 mt-1">Why teams need both connection and individuality — and how to balance them.</p>
-        </div>
-        <div class="rounded-lg border border-base-300 p-4">
-          <a href="/resources/diy-team-building/lesson-3/" class="text-primary font-semibold hover:underline">Lesson 3: Building Shared Understanding</a>
-          <p class="text-sm opacity-60 mt-1">Team charters, identity, sensemaking, and rituals that create alignment.</p>
-        </div>
-        <div class="rounded-lg border border-base-300 p-4">
-          <a href="/resources/diy-team-building/lesson-4/" class="text-primary font-semibold hover:underline">Lesson 4: Relationships and Productive Differentiation</a>
-          <p class="text-sm opacity-60 mt-1">How structured interventions turn differences into a source of creativity and growth.</p>
-        </div>
-        <div class="rounded-lg border border-base-300 p-4">
-          <a href="/resources/diy-team-building/lesson-5/" class="text-primary font-semibold hover:underline">Lesson 5: A Roadmap for Team Development</a>
-          <p class="text-sm opacity-60 mt-1">A practical sequence: kickoff, daily practice, workshops, and ongoing renewal.</p>
-        </div>
+        {% for lesson in lessons %}
+          <div class="rounded-lg border border-base-300 p-4">
+            <a href="/resources/diy-team-building/{{ lesson.slug }}/" class="text-primary font-semibold hover:underline">Lesson {{ lesson.number }}: {{ lesson.title }}</a>
+            <p class="text-sm opacity-60 mt-1">{{ lesson.teaser }}</p>
+          </div>
+        {% endfor %}
       </div>
     </div>
   </section>

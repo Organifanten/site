@@ -3,11 +3,9 @@ layout: layout.njk
 ---
 
 <div class="min-h-screen bg-base-100 text-base-content">
-<div class="navbar bg-base-100 px-8">
+<div class="flex items-center justify-between bg-base-100 px-8">
   <div class="flex-1">
     <a class="text-2xl font-bold text-primary">Organifanten</a>
-  </div>
-  <div class="flex-none">
   </div>
 </div>
   <!-- HERO -->
@@ -24,7 +22,7 @@ layout: layout.njk
         </p>
 
         <div class="mt-10">
-          <a href="https://app.organifanten.com/register/"  class="btn btn-primary btn-lg">Describe a tension</a>
+          <a href="https://app.organifanten.com/register/"  class="inline-flex items-center justify-center px-8 py-4 rounded-lg font-semibold transition-colors bg-primary text-primary-content hover:opacity-90 text-lg">Describe a tension</a>
           <p class="text-sm opacity-60 mt-3">
             Free for individuals · 99€/month for organizations
           </p>
@@ -66,49 +64,31 @@ layout: layout.njk
         </div>
     </div>
 
-    <ul class="timeline my-10">
-    <li>
-        <div class="timeline-start timeline-box">Tension noticed</div>
-        <div class="timeline-middle">
-            {% include "circle_tension.njk" %}
-        </div>
-        <div class="timeline-end timeline-box">January</div>
-        <hr />
+    <ul class="list-none my-10 space-y-4">
+    <li class="flex items-center gap-4">
+        <span>Tension noticed</span>
+        <span class="shrink-0">{% include "circle_tension.njk" %}</span>
+        <span class="text-sm opacity-60">January</span>
     </li>
-    <li>
-        <hr />
-        <div class="timeline-start timeline-box">Insight A</div>
-        <div class="timeline-middle">
-            {% include "circle_insight.njk" %}
-        </div>
-        <div class="timeline-end timeline-box">February</div>
-        <hr />
+    <li class="flex items-center gap-4">
+        <span>Insight A</span>
+        <span class="shrink-0">{% include "circle_insight.njk" %}</span>
+        <span class="text-sm opacity-60">February</span>
     </li>
-    <li>
-        <hr />
-        <div class="timeline-start timeline-box">Intervention 1</div>
-        <div class="timeline-middle">
-            {% include "circle_intervention.njk" %}
-        </div>
-        <div class="timeline-end timeline-box">April</div>
-        <hr />
+    <li class="flex items-center gap-4">
+        <span>Intervention 1</span>
+        <span class="shrink-0">{% include "circle_intervention.njk" %}</span>
+        <span class="text-sm opacity-60">April</span>
     </li>
-    <li>
-        <hr />
-        <div class="timeline-start timeline-box">Insight B</div>
-        <div class="timeline-middle">
-            {% include "circle_insight.njk" %}
-        </div>
-        <div class="timeline-end timeline-box">July</div>
-        <hr />
+    <li class="flex items-center gap-4">
+        <span>Insight B</span>
+        <span class="shrink-0">{% include "circle_insight.njk" %}</span>
+        <span class="text-sm opacity-60">July</span>
     </li>
-    <li>
-        <hr />
-        <div class="timeline-start timeline-box">Effect visible</div>
-        <div class="timeline-middle">
-        {% include "circle_effect.njk" %}
-        </div>
-        <div class="timeline-end timeline-box">August</div>
+    <li class="flex items-center gap-4">
+        <span>Effect visible</span>
+        <span class="shrink-0">{% include "circle_effect.njk" %}</span>
+        <span class="text-sm opacity-60">August</span>
     </li>
     </ul>
 
@@ -133,23 +113,23 @@ layout: layout.njk
         It is about staying with the complexity of organizational change.
       </p>
       <div class="grid md:grid-cols-3 gap-8">
-        <div class="card bg-base-100 shadow-sm">
-          <div class="card-body">
-            <h3 class="card-title text-warning">Notice</h3>
+        <div class="rounded-xl bg-base-100 shadow-sm">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-warning">Notice</h3>
             <p>Roughly describe tensions as you perceive them.</p>
           </div>
         </div>
 
-        <div class="card bg-base-100 shadow-sm">
-          <div class="card-body">
-            <h3 class="card-title text-info">Plan</h3>
+        <div class="rounded-xl bg-base-100 shadow-sm">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-info">Plan</h3>
             <p>Prioritize which tensions you're working on and plan interventions.</p>
           </div>
         </div>
 
-        <div class="card bg-base-100 shadow-sm">
-          <div class="card-body">
-            <h3 class="card-title text-success">Reflect</h3>
+        <div class="rounded-xl bg-base-100 shadow-sm">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-success">Reflect</h3>
             <p>Log insights and effects as your understanding gradually evolves.</p>
           </div>
         </div>

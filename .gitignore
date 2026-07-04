@@ -7,3 +7,7 @@ node_modules/
 # Optional: local env / editor files
 .DS_Store
 .env
+
+# Concept files
+/docs/
+/.vscode

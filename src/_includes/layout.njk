@@ -11,6 +11,7 @@
     {% endif %}
   </head>
   <body class="min-h-screen bg-base-100 font-sans text-base-content">
+    {% include "nav.njk" %}
     {{ content | safe }}
     {% if site.isProd %}
       {% include "consent-banner.njk" %}

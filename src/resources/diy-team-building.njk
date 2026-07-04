@@ -1,0 +1,78 @@
+---
+layout: layout.njk
+title: DIY Team Building | Organifanten
+---
+
+<div class="min-h-screen bg-base-100 text-base-content">
+  <section class="py-12">
+    <div class="max-w-3xl mx-auto px-6">
+      <h1 class="text-3xl md:text-4xl font-semibold mb-2">DIY Team Building</h1>
+      <p class="text-lg opacity-80 mb-2">
+        Level 12 is a year of DIY team development.
+      </p>
+      <p class="text-sm opacity-60 mb-8">
+        Can your team complete all tasks up to Level 12?
+      </p>
+    </div>
+  </section>
+
+  <section class="pb-12">
+    <div class="max-w-3xl mx-auto px-6 space-y-8">
+      {% for level in level12.levels %}
+        <div class="border border-base-300 rounded-xl overflow-hidden">
+          <h2 class="text-xl font-semibold px-6 py-3 border-b border-base-300">{{ level.title }}</h2>
+          <ol class="divide-y divide-base-200">
+            {% for task in level.tasks %}
+              <li class="task">
+                <button class="task-title w-full text-left px-6 py-3 font-medium text-primary hover:opacity-80 transition-colors flex items-center gap-2" data-index="{{ loop.index0 }}">
+                  <span class="text-xs opacity-40">▸</span>
+                  {{ task.title }}
+                </button>
+                <div class="task-details px-6 pb-4 text-sm opacity-80 leading-relaxed" hidden>
+                  {{ task.detail }}
+                </div>
+              </li>
+            {% endfor %}
+          </ol>
+        </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <!-- Further Reading -->
+  <section class="pb-20">
+    <div class="max-w-3xl mx-auto px-6">
+      <h2 class="text-2xl font-semibold mb-6">Further Reading</h2>
+      <p class="text-base opacity-70 mb-6">
+        These lessons explain the mechanisms behind the game — how team building works, 
+        why the tasks are designed the way they are, and how to get the most out of each level.
+      </p>
+      <div class="space-y-4">
+        <div class="rounded-lg border border-base-300 p-4">
+          <a href="/resources/diy-team-building/lesson-1/" class="text-primary font-semibold hover:underline">Lesson 1: Understanding Teams as Systems</a>
+          <p class="text-sm opacity-60 mt-1">Teams are living systems, not machines. Learn what that means for your team development.</p>
+        </div>
+        <div class="rounded-lg border border-base-300 p-4">
+          <a href="/resources/diy-team-building/lesson-2/" class="text-primary font-semibold hover:underline">Lesson 2: Proximity and Difference</a>
+          <p class="text-sm opacity-60 mt-1">Why teams need both connection and individuality — and how to balance them.</p>
+        </div>
+        <div class="rounded-lg border border-base-300 p-4">
+          <a href="/resources/diy-team-building/lesson-3/" class="text-primary font-semibold hover:underline">Lesson 3: Building Shared Understanding</a>
+          <p class="text-sm opacity-60 mt-1">Team charters, identity, sensemaking, and rituals that create alignment.</p>
+        </div>
+        <div class="rounded-lg border border-base-300 p-4">
+          <a href="/resources/diy-team-building/lesson-4/" class="text-primary font-semibold hover:underline">Lesson 4: Relationships and Productive Differentiation</a>
+          <p class="text-sm opacity-60 mt-1">How structured interventions turn differences into a source of creativity and growth.</p>
+        </div>
+        <div class="rounded-lg border border-base-300 p-4">
+          <a href="/resources/diy-team-building/lesson-5/" class="text-primary font-semibold hover:underline">Lesson 5: A Roadmap for Team Development</a>
+          <p class="text-sm opacity-60 mt-1">A practical sequence: kickoff, daily practice, workshops, and ongoing renewal.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {% include "footer.njk" %}
+</div>
+
+<script src="/assets/level-toggle.js" defer></script>

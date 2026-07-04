@@ -3,11 +3,6 @@ layout: layout.njk
 ---
 
 <div class="min-h-screen bg-base-100 text-base-content">
-<div class="flex items-center justify-between bg-base-100 px-8">
-  <div class="flex-1">
-    <a class="text-2xl font-bold text-primary">Organifanten</a>
-  </div>
-</div>
   <!-- HERO -->
   <section class="py-6">
     <div class="text-center max-w-3xl mx-auto">
@@ -168,23 +163,6 @@ layout: layout.njk
     </div>
 
   </div>
-</section>
-
-<!-- BACKLOG -->
-<section class="py-20">
-    <div class="max-w-3xl mx-auto px-6">
-        <h2 class="text-2xl font-semibold mb-6">Product Backlog</h2>
-        <p>I'm working on these features next to make Organifanten more useful for you and me:</p>
-        <ol class="list-decimal list-inside space-y-2 mt-6">
-        {% for item in backlog %}
-            <li>{{ item }}</li>
-        {% endfor %}
-        </ol>
-         <p class="font-medium mt-6">
-            → Get feature updates
-        <a href="https://www.linkedin.com/in/nicolas-megow/" target="_blank" class="text-primary underline"> on LinkedIn</a> or send me your ideas and feedback.
-      </p>
-    </div>
 </section>
 
   {% include "footer.njk" %}

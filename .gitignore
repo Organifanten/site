@@ -11,3 +11,4 @@ node_modules/
 # Concept files
 /docs/
 /.vscode/
+/.playwright-mcp/

@@ -2,7 +2,7 @@
   <section class="py-20">
     <div class="max-w-3xl mx-auto px-6">
       <div class="flex justify-center text-primary">
-        <div class="flex w-16">{% include "elephant.njk" %}</div>
+        <div class="flex w-16">{% set elephantClass = "w-full h-auto" %}{% include "elephant.njk" %}</div>
       </div>
       <div class="text-center pt-6">
         <p class="font-medium text-xl pb-2">
@@ -13,9 +13,9 @@
         </p>
       </div>
     </div>
-  </section>
-  <div class="flex justify-center gap-6 pb-8 text-sm opacity-50">
+    <div class="flex justify-center gap-6 pt-8 text-sm opacity-50">
     <a href="/imprint/" class="hover:opacity-100 underline">Imprint</a>
     <a href="/privacy/" class="hover:opacity-100 underline">Privacy Policy</a>
   </div>
+  </section>
 </footer>

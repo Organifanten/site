@@ -8,19 +8,22 @@ layout: layout.njk
   <!-- HERO -->
   <section class="py-12 md:py-20">
     <div class="max-w-3xl mx-auto px-6">
-      <div class="flex justify-center gap-8 md:gap-12 mb-8">
-        <div class="text-pink-400 w-16 md:w-20">
-          {% include "elephant.njk" %}
-        </div>
-        <div class="text-gray-300 w-16 md:w-20">
-          {% include "elephant.njk" %}
-        </div>
-        <div class="text-yellow-300 w-16 md:w-20">
-          {% include "elephant.njk" %}
-        </div>
+      <div class="flex justify-center gap-6 md:gap-10 mb-8">
+
+          <div class="text-pink-400 w-24 md:w-26">
+            {% include "elephant.njk" %}
+          </div>
+
+          <div class="text-yellow-400 w-24 md:w-26">
+            {% include "elephant.njk" %}
+          </div>
+
+          <div class="text-gray-400 w-24 md:w-26">
+            {% include "elephant.njk" %}
+          </div>
       </div>
       <h1 class="text-4xl md:text-5xl font-semibold leading-tight mb-6">
-        There are three elephants in every meeting room.
+        There are elephants <br>in every meeting room.
       </h1>
       <p class="text-lg opacity-80 mb-3 leading-relaxed">
         The brains in the room. The bureaucracy they work within. The culture they create together.
@@ -32,13 +35,13 @@ layout: layout.njk
   </section>
 
   <!-- THREE ELEPHANTS DETAILED -->
-  <section class="py-20 bg-accent">
+  <section class="py-20">
     <div class="max-w-3xl mx-auto px-6">
       <div class="space-y-12">
         <div>
+          <i class="fa-solid fa-brain text-pink-400 text-2xl"></i>
           <h2 class="text-2xl font-semibold mb-4 flex items-center gap-3">
-            <i class="fa-solid fa-brain text-pink-400 text-2xl"></i>
-            Brain
+            The brains in the room
           </h2>
           <ul class="opacity-90 leading-relaxed space-y-1">
             <li>Habits and mental shortcuts</li>
@@ -47,21 +50,9 @@ layout: layout.njk
           </ul>
         </div>
         <div>
+          <i class="fa-solid fa-users text-yellow-300 text-2xl"></i>
           <h2 class="text-2xl font-semibold mb-4 flex items-center gap-3">
-            <i class="fa-solid fa-file-lines text-gray-300 text-2xl"></i>
-            Bureaucracy
-          </h2>
-          <ul class="opacity-90 leading-relaxed space-y-1">
-            <li>Rules and processes</li>
-            <li>Decision rights</li>
-            <li>Incentives</li>
-            <li>Organizational structures</li>
-          </ul>
-        </div>
-        <div>
-          <h2 class="text-2xl font-semibold mb-4 flex items-center gap-3">
-            <i class="fa-solid fa-users text-yellow-300 text-2xl"></i>
-            Culture
+            The culture they create together
           </h2>
           <ul class="opacity-90 leading-relaxed space-y-1">
             <li>Trust</li>
@@ -70,76 +61,23 @@ layout: layout.njk
             <li>Shared assumptions</li>
           </ul>
         </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- HOW I WORK -->
-  <section class="py-20">
-    <div class="max-w-3xl mx-auto px-6">
-      <h2 class="text-3xl font-semibold mb-2">How I work</h2>
-      <p class="opacity-80 mb-10 text-lg">My approach is guided by three principles:</p>
-      <div class="space-y-6">
-        <div class="flex gap-4 items-start">
-          <div class="text-primary text-xl w-8 flex-shrink-0 mt-1">
-            <i class="fa-solid fa-brain"></i>
-          </div>
-          <div>
-            <h3 class="font-semibold mb-1">Brain Budget</h3>
-            <p class="opacity-80">People have limited attention and cognitive capacity. Most dysfunction makes sense once you see it as energy efficiency in disguise.</p>
-          </div>
-        </div>
-        <div class="flex gap-4 items-start">
-          <div class="text-primary text-xl w-8 flex-shrink-0 mt-1">
-            <i class="fa-solid fa-circle-minus"></i>
-          </div>
-          <div>
-            <h3 class="font-semibold mb-1">Via Negativa</h3>
-            <p class="opacity-80">Removing obstacles is often more effective than adding solutions. Subtract before you add.</p>
-          </div>
-        </div>
-        <div class="flex gap-4 items-start">
-          <div class="text-primary text-xl w-8 flex-shrink-0 mt-1">
-            <i class="fa-solid fa-question"></i>
-          </div>
-          <div>
-            <h3 class="font-semibold mb-1">Humble Consulting</h3>
-            <p class="opacity-80">Sustainable change comes from understanding together, not prescribing from the outside.</p>
-          </div>
+        <div>
+          <i class="fa-solid fa-file-lines text-gray-300 text-2xl"></i>
+          <h2 class="text-2xl font-semibold mb-4 flex items-center gap-3">
+            The bureaucracy the work within
+          </h2>
+          <ul class="opacity-90 leading-relaxed space-y-1">
+            <li>Rules and processes</li>
+            <li>Decision rights</li>
+            <li>Incentives</li>
+            <li>Organizational structures</li>
+          </ul>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- PROOF -->
-  <section class="py-20 bg-accent">
-    <div class="max-w-3xl mx-auto px-6">
-      <blockquote class="border-l-4 border-primary pl-6 max-w-2xl mx-auto">
-        <p class="text-lg italic opacity-90 leading-relaxed">Man merkt, dass Nicolas über langjährige Erfahrung im Team-Coaching verfügt. Dadurch war er in der Lage in kurzer Zeit ein sehr gutes Gefühl für die relevanten Themen zu bekommen, an welchen für die Weiterentwicklung unseres neu formierten Teams gearbeitet werden musste.</p>
-        <footer class="mt-2 text-sm opacity-60">— André, Führungskraft</footer>
-      </blockquote>
-    </div>
-  </section>
-
-  <!-- FREE RESOURCES -->
-  <section class="py-20">
-    <div class="max-w-3xl mx-auto px-6">
-      <div class="flex items-center justify-center text-primary mb-6">
-        <div class="w-10">{% include "elephant.njk" %}</div>
-      </div>
-      <h2 class="text-3xl font-semibold mb-4 text-center">Free resources</h2>
-      <p class="text-lg opacity-80 mb-8 text-center max-w-xl mx-auto leading-relaxed">
-        Not ready to talk? Start with the DIY Team Building Game — a year of team development challenges, free and no facilitator required.
-      </p>
-      <div class="text-center">
-        <a href="/resources/" class="text-primary font-semibold hover:underline">
-          Browse all resources →
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- CONSULTING -->
+    <!-- CONSULTING -->
   <section class="py-20 bg-accent">
     <div class="max-w-3xl mx-auto px-6">
       <h2 class="text-3xl font-semibold mb-8">Organizations often misdiagnose their problems.</h2>
@@ -165,16 +103,28 @@ layout: layout.njk
     </div>
   </section>
 
-  <!-- DIAGNOSTIC CTA -->
+  <!-- PROOF -->
   <section class="py-20">
     <div class="max-w-3xl mx-auto px-6">
-      <h2 class="text-3xl font-semibold mb-4">Which elephant is causing your problem?</h2>
-      <p class="text-lg opacity-90 leading-relaxed mb-8">
-        Bring one situation that feels stuck. Together we'll explore whether the real constraint lies in the brains in the room, the bureaucracy around them, the culture between them — or in the interaction of all three.
+      <blockquote class="border-l-4 border-primary pl-6 max-w-2xl mx-auto">
+        <p class="text-lg italic opacity-90 leading-relaxed">Man merkt, dass Nicolas über langjährige Erfahrung im Team-Coaching verfügt. Dadurch war er in der Lage in kurzer Zeit ein sehr gutes Gefühl für die relevanten Themen zu bekommen, an welchen für die Weiterentwicklung unseres neu formierten Teams gearbeitet werden musste.</p>
+        <footer class="mt-2 text-sm opacity-60">— André, Führungskraft</footer>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- FREE RESOURCES -->
+  <section class="py-20">
+    <div class="max-w-3xl mx-auto px-6">
+      <h2 class="text-3xl font-semibold mb-4 text-center">Most challenges don't need consulting.</h2>
+      <p class="text-lg opacity-80 mb-8 text-center max-w-xl mx-auto leading-relaxed">
+        You are the expert for your challenges. These resources help you explore, discuss, and improve your organization on your own terms.
       </p>
-      <a href="mailto:hello@organifanten.com" class="btn btn-primary text-lg">
-        Let's talk
-      </a>
+      <div class="text-center">
+        <a href="/resources/" class="text-primary font-semibold hover:underline">
+          To the resources →
+        </a>
+      </div>
     </div>
   </section>
 

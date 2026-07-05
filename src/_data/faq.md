@@ -22,9 +22,6 @@ The next step emerges through structured questions, not prescribed answers. The 
 **Who is it for?**
 Leaders, managers, and consultants with a specific organizational challenge they need to think through.
 
-**How much does it cost?**
-€500 per session. A pass of 8 sessions costs €3,000 (€375 per session).
-
 ## 3. Change Audit
 
 **What is a Change Audit?**
@@ -33,9 +30,6 @@ A 1-week diagnostic: 10 interviews, materials review, 3-page findings document, 
 **When should I use it?**
 When you have a specific change underway and need to understand the hidden obstacles.
 
-**How much does it cost?**
-€5,000 total.
-
 ## 4. Culture Portrait
 
 **What is a Culture Portrait?**
@@ -43,9 +37,6 @@ A 1-week characterization of your organizational culture. I spend time observing
 
 **When should I use it?**
 Before you design any transformation or change. It gives you a baseline.
-
-**How much does it cost?**
-€5,000 total.
 
 **How is this different from a Change Audit?**
 A Culture Portrait looks at your overall culture now. A Change Audit looks at how a specific change is landing. Different tools for different moments.

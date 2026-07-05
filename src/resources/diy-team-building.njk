@@ -3,32 +3,40 @@ layout: layout.njk
 title: DIY Team Building | Organifanten
 ---
 
-<div class="min-h-screen bg-base-100 text-base-content">
+<div class="bg-base-100 text-base-content min-h-screen">
   <section class="py-12">
-    <div class="max-w-3xl mx-auto px-6">
-      <h1 class="text-3xl md:text-4xl font-semibold mb-2">DIY Team Building</h1>
-      <p class="text-lg opacity-80 mb-2">
+    <div class="mx-auto max-w-3xl px-6">
+      <h1 class="mb-2 text-3xl font-semibold md:text-4xl">DIY Team Building</h1>
+      <p class="mb-2 text-lg opacity-80">
         Level 12 is a year of DIY team development.
       </p>
-      <p class="text-sm opacity-60 mb-8">
+      <p class="mb-8 text-sm opacity-60">
         Can your team complete all tasks up to Level 12?
       </p>
     </div>
   </section>
 
   <section class="pb-12">
-    <div class="max-w-3xl mx-auto px-6 space-y-8">
+    <div class="mx-auto max-w-3xl space-y-8 px-6">
       {% for level in level12.levels %}
-        <div class="border border-base-300 rounded-xl overflow-hidden">
-          <h2 class="text-xl font-semibold px-6 py-3 border-b border-base-300">{{ level.title }}</h2>
-          <ol class="divide-y divide-base-200">
+        <div class="border-base-300 overflow-hidden rounded-xl border">
+          <h2 class="border-base-300 border-b px-6 py-3 text-xl font-semibold">
+            {{ level.title }}
+          </h2>
+          <ol class="divide-base-200 divide-y">
             {% for task in level.tasks %}
               <li class="task">
-                <button class="task-title w-full text-left px-6 py-3 font-medium text-primary hover:opacity-80 transition-colors flex items-center gap-2" data-index="{{ loop.index0 }}">
+                <button
+                  class="task-title text-primary flex w-full items-center gap-2 px-6 py-3 text-left font-medium transition-colors hover:opacity-80"
+                  data-index="{{ loop.index0 }}"
+                >
                   <span class="text-xs opacity-40">▸</span>
                   {{ task.title }}
                 </button>
-                <div class="task-details px-6 pb-4 text-sm opacity-80 leading-relaxed" hidden>
+                <div
+                  class="task-details px-6 pb-4 text-sm leading-relaxed opacity-80"
+                  hidden
+                >
                   {{ task.detail }}
                 </div>
               </li>
@@ -41,17 +49,22 @@ title: DIY Team Building | Organifanten
 
   <!-- Further Reading -->
   <section class="pb-20">
-    <div class="max-w-3xl mx-auto px-6">
-      <h2 class="text-2xl font-semibold mb-6">Further Reading</h2>
-      <p class="text-base opacity-70 mb-6">
-        These lessons explain the mechanisms behind the game — how team building works, 
-        why the tasks are designed the way they are, and how to get the most out of each level.
+    <div class="mx-auto max-w-3xl px-6">
+      <h2 class="mb-6 text-2xl font-semibold">Further Reading</h2>
+      <p class="mb-6 text-base opacity-70">
+        These lessons explain the mechanisms behind the game — how team building
+        works, why the tasks are designed the way they are, and how to get the
+        most out of each level.
       </p>
       <div class="space-y-4">
         {% for lesson in lessons %}
-          <div class="rounded-lg border border-base-300 p-4">
-            <a href="/resources/diy-team-building/{{ lesson.slug }}/" class="text-primary font-semibold hover:underline">Lesson {{ lesson.number }}: {{ lesson.title }}</a>
-            <p class="text-sm opacity-60 mt-1">{{ lesson.teaser }}</p>
+          <div class="border-base-300 rounded-lg border p-4">
+            <a
+              href="/resources/diy-team-building/{{ lesson.slug }}/"
+              class="text-primary font-semibold hover:underline"
+              >Lesson {{ lesson.number }}: {{ lesson.title }}</a
+            >
+            <p class="mt-1 text-sm opacity-60">{{ lesson.teaser }}</p>
           </div>
         {% endfor %}
       </div>

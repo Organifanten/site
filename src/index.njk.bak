@@ -1,0 +1,133 @@
+---
+layout: layout.njk
+---
+
+{% set elephantClass = "w-full h-auto" %}
+
+<div class="min-h-screen bg-base-100 text-base-content">
+  <!-- HERO -->
+  <section class="py-12 md:py-20">
+    <div class="max-w-3xl mx-auto px-6">
+      <div class="flex justify-center gap-6 md:gap-10 mb-8">
+
+          <div class="text-pink-400 w-24 md:w-26">
+            {% include "elephant.njk" %}
+          </div>
+
+          <div class="text-yellow-400 w-24 md:w-26">
+            {% include "elephant.njk" %}
+          </div>
+
+          <div class="text-gray-400 w-24 md:w-26">
+            {% include "elephant.njk" %}
+          </div>
+      </div>
+      <h1 class="text-4xl md:text-5xl font-semibold leading-tight mb-6">
+        There are elephants <br>in every meeting room.
+      </h1>
+      <p class="text-lg opacity-80 mb-3 leading-relaxed">
+        The brains in the room. The bureaucracy they work within. The culture they create together.
+      </p>
+      <p class="text-lg opacity-80 leading-relaxed">
+        Every organizational problem is shaped by all three.
+      </p>
+    </div>
+  </section>
+
+  <!-- THREE ELEPHANTS DETAILED -->
+  <section class="py-20">
+    <div class="max-w-3xl mx-auto px-6">
+      <div class="space-y-12">
+        <div>
+          <i class="fa-solid fa-brain text-pink-400 text-2xl"></i>
+          <h2 class="text-2xl font-semibold mb-4 flex items-center gap-3">
+            The brains in the room
+          </h2>
+          <ul class="opacity-90 leading-relaxed space-y-1">
+            <li>Habits and mental shortcuts</li>
+            <li>Cognitive load</li>
+            <li>Energy-efficient thinking</li>
+          </ul>
+        </div>
+        <div>
+          <i class="fa-solid fa-users text-yellow-300 text-2xl"></i>
+          <h2 class="text-2xl font-semibold mb-4 flex items-center gap-3">
+            The culture they create together
+          </h2>
+          <ul class="opacity-90 leading-relaxed space-y-1">
+            <li>Trust</li>
+            <li>Psychological safety</li>
+            <li>Unwritten rules</li>
+            <li>Shared assumptions</li>
+          </ul>
+        </div>
+        <div>
+          <i class="fa-solid fa-file-lines text-gray-300 text-2xl"></i>
+          <h2 class="text-2xl font-semibold mb-4 flex items-center gap-3">
+            The bureaucracy the work within
+          </h2>
+          <ul class="opacity-90 leading-relaxed space-y-1">
+            <li>Rules and processes</li>
+            <li>Decision rights</li>
+            <li>Incentives</li>
+            <li>Organizational structures</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- CONSULTING -->
+  <section class="py-20 bg-accent">
+    <div class="max-w-3xl mx-auto px-6">
+      <h2 class="text-3xl font-semibold mb-8">Organizations often misdiagnose their problems.</h2>
+      <div class="grid md:grid-cols-2 gap-10 items-center mb-10">
+        <div class="space-y-4">
+          <p class="text-lg opacity-90 leading-relaxed">
+            A culture initiative tries to solve a bureaucratic constraint.
+          </p>
+          <p class="text-lg opacity-90 leading-relaxed">
+            A new process attempts to fix a cognitive overload problem.
+          </p>
+          <p class="text-lg opacity-90 leading-relaxed">
+            My role is to identify which elephant is actually driving the situation — and how the others reinforce it.
+          </p>
+          <div class="pt-4">
+            <a href="/consulting/" class="text-primary font-semibold hover:underline">More about my approach →</a>
+          </div>
+        </div>
+        <div>
+          <img src="/assets/images/GraphicRecording.jpeg" alt="Graphic recording session" class="rounded-2xl shadow-sm w-full object-cover" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROOF -->
+  <section class="py-20">
+    <div class="max-w-3xl mx-auto px-6">
+      <blockquote class="border-l-4 border-primary pl-6 max-w-2xl mx-auto">
+        <p class="text-lg italic opacity-90 leading-relaxed">Man merkt, dass Nicolas über langjährige Erfahrung im Team-Coaching verfügt. Dadurch war er in der Lage in kurzer Zeit ein sehr gutes Gefühl für die relevanten Themen zu bekommen, an welchen für die Weiterentwicklung unseres neu formierten Teams gearbeitet werden musste.</p>
+        <footer class="mt-2 text-sm opacity-60">— André, Führungskraft</footer>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- FREE RESOURCES -->
+  <section class="py-20">
+    <div class="max-w-3xl mx-auto px-6">
+      <h2 class="text-3xl font-semibold mb-4 text-center">Most challenges don't need consulting.</h2>
+      <p class="text-lg opacity-80 mb-8 text-center max-w-xl mx-auto leading-relaxed">
+        You are the expert for your challenges. These resources help you explore, discuss, and improve your organization on your own terms.
+      </p>
+      <div class="text-center">
+        <a href="/resources/" class="text-primary font-semibold hover:underline">
+          To the resources →
+        </a>
+      </div>
+    </div>
+  </section>
+
+  {% include "footer.njk" %}
+
+</div>

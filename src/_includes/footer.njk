@@ -1,21 +1,25 @@
 <footer class="bg-base-200">
   <section class="py-20">
-    <div class="max-w-3xl mx-auto px-6">
-      <div class="flex justify-center text-primary">
-        <div class="flex w-16">{% set elephantClass = "w-full h-auto" %}{% include "elephant.njk" %}</div>
+    <div class="mx-auto max-w-3xl px-6">
+      <div class="text-primary flex justify-center">
+        <div class="flex w-16">
+          {% set elephantClass = "w-full h-auto" %}{% include "elephant.njk" %}
+        </div>
       </div>
-      <div class="text-center pt-6">
-        <p class="font-medium text-xl pb-2">
+      <div class="pt-6 text-center">
+        <p class="pb-2 text-xl font-medium">
           Let's talk about the elephants in your organization.
         </p>
         <p class="opacity-60">
-          <a href="mailto:hello@organifanten.com" class="hover:opacity-100">hello@organifanten.com</a>
+          <a href="mailto:hello@organifanten.com" class="hover:opacity-100"
+            >hello@organifanten.com</a
+          >
         </p>
       </div>
     </div>
     <div class="flex justify-center gap-6 pt-8 text-sm opacity-50">
-    <a href="/imprint/" class="hover:opacity-100 underline">Imprint</a>
-    <a href="/privacy/" class="hover:opacity-100 underline">Privacy Policy</a>
-  </div>
+      <a href="/imprint/" class="underline hover:opacity-100">Imprint</a>
+      <a href="/privacy/" class="underline hover:opacity-100">Privacy Policy</a>
+    </div>
   </section>
 </footer>

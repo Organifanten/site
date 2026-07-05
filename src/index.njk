@@ -4,31 +4,31 @@ layout: layout.njk
 
 {% set elephantClass = "w-full h-auto" %}
 
-<div class="min-h-screen bg-base-100 text-base-content">
+<div class="bg-base-100 text-base-content min-h-screen">
   <!-- HERO -->
   <section class="py-12 md:py-20">
-    <div class="max-w-3xl mx-auto px-6">
-      <div class="flex justify-center gap-6 md:gap-10 mb-8">
+    <div class="mx-auto max-w-3xl px-6">
+      <div class="mb-8 flex justify-center gap-6 md:gap-10">
+        <div class="w-24 text-pink-400 md:w-26">
+          {% include "elephant.njk" %}
+        </div>
 
-          <div class="text-pink-400 w-24 md:w-26">
-            {% include "elephant.njk" %}
-          </div>
+        <div class="w-24 text-yellow-400 md:w-26">
+          {% include "elephant.njk" %}
+        </div>
 
-          <div class="text-yellow-400 w-24 md:w-26">
-            {% include "elephant.njk" %}
-          </div>
-
-          <div class="text-gray-400 w-24 md:w-26">
-            {% include "elephant.njk" %}
-          </div>
+        <div class="w-24 text-gray-400 md:w-26">
+          {% include "elephant.njk" %}
+        </div>
       </div>
-      <h1 class="text-4xl md:text-5xl font-semibold leading-tight mb-6">
-        There are elephants <br>in every meeting room.
+      <h1 class="mb-6 text-4xl leading-tight font-semibold md:text-5xl">
+        There are elephants <br />in every meeting room.
       </h1>
-      <p class="text-lg opacity-80 mb-3 leading-relaxed">
-        The brains in the room. The bureaucracy they work within. The culture they create together.
+      <p class="mb-3 text-lg leading-relaxed opacity-80">
+        The brains in the room. The bureaucracy they work within. The culture
+        they create together.
       </p>
-      <p class="text-lg opacity-80 leading-relaxed">
+      <p class="text-lg leading-relaxed opacity-80">
         Every organizational problem is shaped by all three.
       </p>
     </div>
@@ -36,25 +36,25 @@ layout: layout.njk
 
   <!-- THREE ELEPHANTS DETAILED -->
   <section class="py-20">
-    <div class="max-w-3xl mx-auto px-6">
+    <div class="mx-auto max-w-3xl px-6">
       <div class="space-y-12">
         <div>
-          <i class="fa-solid fa-brain text-pink-400 text-2xl"></i>
-          <h2 class="text-2xl font-semibold mb-4 flex items-center gap-3">
+          <i class="fa-solid fa-brain text-2xl text-pink-400"></i>
+          <h2 class="mb-4 flex items-center gap-3 text-2xl font-semibold">
             The brains in the room
           </h2>
-          <ul class="opacity-90 leading-relaxed space-y-1">
+          <ul class="space-y-1 leading-relaxed opacity-90">
             <li>Habits and mental shortcuts</li>
             <li>Cognitive load</li>
             <li>Energy-efficient thinking</li>
           </ul>
         </div>
         <div>
-          <i class="fa-solid fa-users text-yellow-300 text-2xl"></i>
-          <h2 class="text-2xl font-semibold mb-4 flex items-center gap-3">
+          <i class="fa-solid fa-users text-2xl text-yellow-300"></i>
+          <h2 class="mb-4 flex items-center gap-3 text-2xl font-semibold">
             The culture they create together
           </h2>
-          <ul class="opacity-90 leading-relaxed space-y-1">
+          <ul class="space-y-1 leading-relaxed opacity-90">
             <li>Trust</li>
             <li>Psychological safety</li>
             <li>Unwritten rules</li>
@@ -62,11 +62,11 @@ layout: layout.njk
           </ul>
         </div>
         <div>
-          <i class="fa-solid fa-file-lines text-gray-300 text-2xl"></i>
-          <h2 class="text-2xl font-semibold mb-4 flex items-center gap-3">
+          <i class="fa-solid fa-file-lines text-2xl text-gray-300"></i>
+          <h2 class="mb-4 flex items-center gap-3 text-2xl font-semibold">
             The bureaucracy the work within
           </h2>
-          <ul class="opacity-90 leading-relaxed space-y-1">
+          <ul class="space-y-1 leading-relaxed opacity-90">
             <li>Rules and processes</li>
             <li>Decision rights</li>
             <li>Incentives</li>
@@ -77,27 +77,38 @@ layout: layout.njk
     </div>
   </section>
 
-    <!-- CONSULTING -->
-  <section class="py-20 bg-accent">
-    <div class="max-w-3xl mx-auto px-6">
-      <h2 class="text-3xl font-semibold mb-8">Organizations often misdiagnose their problems.</h2>
-      <div class="grid md:grid-cols-2 gap-10 items-center mb-10">
+  <!-- CONSULTING -->
+  <section class="bg-accent py-20">
+    <div class="mx-auto max-w-3xl px-6">
+      <h2 class="mb-8 text-3xl font-semibold">
+        Organizations often misdiagnose their problems.
+      </h2>
+      <div class="mb-10 grid items-center gap-10 md:grid-cols-2">
         <div class="space-y-4">
-          <p class="text-lg opacity-90 leading-relaxed">
+          <p class="text-lg leading-relaxed opacity-90">
             A culture initiative tries to solve a bureaucratic constraint.
           </p>
-          <p class="text-lg opacity-90 leading-relaxed">
+          <p class="text-lg leading-relaxed opacity-90">
             A new process attempts to fix a cognitive overload problem.
           </p>
-          <p class="text-lg opacity-90 leading-relaxed">
-            My role is to identify which elephant is actually driving the situation — and how the others reinforce it.
+          <p class="text-lg leading-relaxed opacity-90">
+            My role is to identify which elephant is actually driving the
+            situation — and how the others reinforce it.
           </p>
           <div class="pt-4">
-            <a href="/consulting/" class="text-primary font-semibold hover:underline">More about my approach →</a>
+            <a
+              href="/consulting/"
+              class="text-primary font-semibold hover:underline"
+              >More about my approach →</a
+            >
           </div>
         </div>
         <div>
-          <img src="/assets/images/GraphicRecording.jpeg" alt="Graphic recording session" class="rounded-2xl shadow-sm w-full object-cover" />
+          <img
+            src="/assets/images/GraphicRecording.jpeg"
+            alt="Graphic recording session"
+            class="w-full rounded-2xl object-cover shadow-sm"
+          />
         </div>
       </div>
     </div>
@@ -105,9 +116,15 @@ layout: layout.njk
 
   <!-- PROOF -->
   <section class="py-20">
-    <div class="max-w-3xl mx-auto px-6">
-      <blockquote class="border-l-4 border-primary pl-6 max-w-2xl mx-auto">
-        <p class="text-lg italic opacity-90 leading-relaxed">Man merkt, dass Nicolas über langjährige Erfahrung im Team-Coaching verfügt. Dadurch war er in der Lage in kurzer Zeit ein sehr gutes Gefühl für die relevanten Themen zu bekommen, an welchen für die Weiterentwicklung unseres neu formierten Teams gearbeitet werden musste.</p>
+    <div class="mx-auto max-w-3xl px-6">
+      <blockquote class="border-primary mx-auto max-w-2xl border-l-4 pl-6">
+        <p class="text-lg leading-relaxed italic opacity-90">
+          Man merkt, dass Nicolas über langjährige Erfahrung im Team-Coaching
+          verfügt. Dadurch war er in der Lage in kurzer Zeit ein sehr gutes
+          Gefühl für die relevanten Themen zu bekommen, an welchen für die
+          Weiterentwicklung unseres neu formierten Teams gearbeitet werden
+          musste.
+        </p>
         <footer class="mt-2 text-sm opacity-60">— André, Führungskraft</footer>
       </blockquote>
     </div>
@@ -115,13 +132,21 @@ layout: layout.njk
 
   <!-- FREE RESOURCES -->
   <section class="py-20">
-    <div class="max-w-3xl mx-auto px-6">
-      <h2 class="text-3xl font-semibold mb-4 text-center">Most challenges don't need consulting.</h2>
-      <p class="text-lg opacity-80 mb-8 text-center max-w-xl mx-auto leading-relaxed">
-        You are the expert for your challenges. These resources help you explore, discuss, and improve your organization on your own terms.
+    <div class="mx-auto max-w-3xl px-6">
+      <h2 class="mb-4 text-center text-3xl font-semibold">
+        Most challenges don't need consulting.
+      </h2>
+      <p
+        class="mx-auto mb-8 max-w-xl text-center text-lg leading-relaxed opacity-80"
+      >
+        You are the expert for your challenges. These resources help you
+        explore, discuss, and improve your organization on your own terms.
       </p>
       <div class="text-center">
-        <a href="/resources/" class="text-primary font-semibold hover:underline">
+        <a
+          href="/resources/"
+          class="text-primary font-semibold hover:underline"
+        >
           To the resources →
         </a>
       </div>
@@ -129,5 +154,4 @@ layout: layout.njk
   </section>
 
   {% include "footer.njk" %}
-
 </div>

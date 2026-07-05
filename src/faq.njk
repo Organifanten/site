@@ -3,14 +3,12 @@ layout: layout.njk
 title: FAQ | Organifanten
 ---
 
-<div class="min-h-screen bg-base-100 text-base-content">
+<div class="bg-base-100 text-base-content min-h-screen">
   <section class="py-20">
-    <div class="max-w-3xl mx-auto px-6">
-      <div class="prose prose-lg max-w-none">
-        {{ faq | markdown | safe }}
-      </div>
+    <div class="mx-auto max-w-3xl px-6">
+      <div class="prose prose-lg max-w-none">{{ faq | markdown | safe }}</div>
       <div class="mt-16 text-center">
-        <p class="opacity-80 mb-4">Still have a question?</p>
+        <p class="mb-4 opacity-80">Still have a question?</p>
         <a href="mailto:hello@organifanten.com" class="btn btn-primary">
           Write me
         </a>

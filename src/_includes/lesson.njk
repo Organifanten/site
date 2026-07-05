@@ -2,19 +2,21 @@
 layout: layout.njk
 ---
 
-<div class="max-w-3xl mx-auto px-6 py-20">
-  <p class="text-sm font-semibold text-primary uppercase tracking-wider mb-2">Lesson {{ lessonNumber }}</p>
-  <h1 class="text-3xl md:text-4xl font-semibold mb-8">{{ title }}</h1>
+<div class="mx-auto max-w-3xl px-6 py-20">
+  <p class="text-primary mb-2 text-sm font-semibold tracking-wider uppercase">
+    Lesson {{ lessonNumber }}
+  </p>
+  <h1 class="mb-8 text-3xl font-semibold md:text-4xl">{{ title }}</h1>
 
   <div class="card-bordered mb-12">
-    <p class="font-medium mb-2">Learning outcome</p>
+    <p class="mb-2 font-medium">Learning outcome</p>
     <p class="opacity-80">{{ learningOutcome }}</p>
   </div>
 
   {{ content | safe }}
 
-  <section class="mt-16 border-t border-base-300 pt-8">
-    <h2 class="text-xl font-semibold mb-4">Reflection Questions</h2>
+  <section class="border-base-300 mt-16 border-t pt-8">
+    <h2 class="mb-4 text-xl font-semibold">Reflection Questions</h2>
     <ul class="space-y-3 opacity-80">
       {% for q in reflectionQuestions %}
         <li>{{ q }}</li>
@@ -24,21 +26,29 @@ layout: layout.njk
 
   <div class="mt-12 flex justify-between">
     {% if prev %}
-      <a href="/resources/diy-team-building/{{ prev.slug }}/"
-         class="btn-outline hover:bg-primary hover:text-primary-content">
-        ← Previous lesson <br> {{ prev.title }}
+      <a
+        href="/resources/diy-team-building/{{ prev.slug }}/"
+        class="btn-outline hover:bg-primary hover:text-primary-content"
+      >
+        ← Previous lesson <br />
+        {{ prev.title }}
       </a>
     {% else %}
       <div></div>
     {% endif %}
     {% if next %}
-      <a href="/resources/diy-team-building/{{ next.slug }}/"
-         class="btn-outline  hover:bg-primary hover:text-primary-content">
-        Next lesson → <br> {{ next.title }}
+      <a
+        href="/resources/diy-team-building/{{ next.slug }}/"
+        class="btn-outline hover:bg-primary hover:text-primary-content"
+      >
+        Next lesson → <br />
+        {{ next.title }}
       </a>
     {% else %}
-      <a href="/resources/diy-team-building/"
-         class="btn-outline hover:bg-primary hover:text-primary-content">
+      <a
+        href="/resources/diy-team-building/"
+        class="btn-outline hover:bg-primary hover:text-primary-content"
+      >
         Back to the Game →
       </a>
     {% endif %}

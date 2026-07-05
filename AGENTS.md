@@ -5,10 +5,10 @@
 ```bash
 npm run dev     # Eleventy dev server with live reload
 npm run build   # Build to _site/
-npx prettier --write .  # Format all files with Prettier
+npx prettier --write .  # Format all files with Prettier (uses prettier-plugin-jinja-template for .njk, prettier-plugin-tailwindcss for class sorting)
 ```
 
-No tests, no linter, no typechecker, no formatter configured. Verify output by running `npm run build` and inspecting `_site/`.
+No tests, no linter, no typechecker configured. Verify output by running `npm run build` and inspecting `_site/`.
 
 ## Tech stack
 

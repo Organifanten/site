@@ -2,19 +2,21 @@
 layout: layout.njk
 ---
 
-<div class="min-h-screen bg-base-100 text-base-content flex flex-col">
-  <div class="max-w-3xl mx-auto px-6 py-20 w-full flex-1">
-    <a href="/consulting/" class="text-primary text-sm font-semibold hover:underline mb-4 inline-block">← Back to Consulting</a>
-    
-    <h1 class="text-4xl md:text-5xl font-semibold mb-2">{{ title }}</h1>
-    <p class="text-lg opacity-80 mb-8">{{ subtitle }}</p>
+<div class="bg-base-100 text-base-content flex min-h-screen flex-col">
+  <div class="mx-auto w-full max-w-3xl flex-1 px-6 py-20">
+    <a
+      href="/consulting/"
+      class="text-primary mb-4 inline-block text-sm font-semibold hover:underline"
+      >← Back to Consulting</a
+    >
 
-    <div class="prose max-w-none mb-12">
-      {{ content | markdown | safe }}
-    </div>
+    <h1 class="mb-2 text-4xl font-semibold md:text-5xl">{{ title }}</h1>
+    <p class="mb-8 text-lg opacity-80">{{ subtitle }}</p>
 
-    <hr class="border-base-300 mb-8">
-    <p class="opacity-80 mb-4">Interested? I'm happy to talk it through.</p>
+    <div class="prose mb-12 max-w-none">{{ content | markdown | safe }}</div>
+
+    <hr class="border-base-300 mb-8" />
+    <p class="mb-4 opacity-80">Interested? I'm happy to talk it through.</p>
     <a href="mailto:hello@organifanten.com" class="btn btn-primary">
       Let's talk
     </a>

@@ -1,6 +1,24 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
+@layer base {
+  h1 {
+    @apply mb-6 text-4xl font-bold tracking-tight;
+  }
+
+  h2 {
+    @apply mb-6 text-3xl font-semibold tracking-tight;
+  }
+
+  h3 {
+    @apply mb-4 text-2xl font-semibold;
+  }
+
+  p {
+    @apply leading-7;
+  }
+}
+
 @utility btn-outline {
   @apply border-primary text-primary inline-flex items-center justify-center rounded-lg border-2 px-6 py-3 font-semibold transition-all;
 }
@@ -11,18 +29,6 @@
 
 @utility tip-box {
   @apply border-info/30 my-8 rounded-xl border p-6;
-}
-
-@utility heading-1 {
-  @apply text-4xl leading-tight font-semibold md:text-5xl;
-}
-
-@utility heading-2 {
-  @apply mb-8 text-3xl font-semibold;
-}
-
-@utility heading-3 {
-  @apply mb-4 text-2xl font-semibold;
 }
 
 @theme {

@@ -9,7 +9,7 @@ Germany
 
 Represented by: Nicolas Megow
 
-## Contact
+### Contact
 
 E-Mail: [hello@organifanten.com](mailto:hello@organifanten.com)
 

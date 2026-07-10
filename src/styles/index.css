@@ -3,19 +3,19 @@
 
 @layer base {
   h1 {
-    @apply mb-6 text-4xl font-bold tracking-tight;
+    @apply my-6 text-4xl font-bold tracking-tight;
   }
 
   h2 {
-    @apply mb-6 text-3xl font-semibold tracking-tight;
+    @apply my-6 text-3xl font-semibold tracking-tight;
   }
 
   h3 {
-    @apply mb-4 text-2xl font-semibold;
+    @apply my-4 text-2xl font-semibold;
   }
 
   p {
-    @apply leading-7;
+    @apply text-lg leading-relaxed opacity-80;
   }
 }
 
@@ -52,4 +52,8 @@
   --color-warning-content: oklch(20% 0.05 80);
   --color-error: oklch(0.65 0.14 25);
   --color-error-content: oklch(98% 0.01 30);
+  --color-brain: oklch(0.65 0.16 10);
+  --color-culture: oklch(0.78 0.12 85);
+  --color-bureaucracy: oklch(0.82 0.015 255);
+  --color-placeholder: oklch(0.6 0.12 190);
 }

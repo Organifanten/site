@@ -9,15 +9,13 @@ layout: layout.njk
   <section class="py-12 md:py-20">
     <div class="mx-auto max-w-3xl px-6">
       <div class="mb-8 flex justify-center gap-6 md:gap-10">
-        <div class="w-24 text-brain md:w-26">
+        <div class="text-brain w-24 md:w-26">{% include "elephant.njk" %}</div>
+
+        <div class="text-culture w-24 md:w-26">
           {% include "elephant.njk" %}
         </div>
 
-        <div class="w-24 text-culture md:w-26">
-          {% include "elephant.njk" %}
-        </div>
-
-        <div class="w-24 text-bureaucracy md:w-26">
+        <div class="text-bureaucracy w-24 md:w-26">
           {% include "elephant.njk" %}
         </div>
       </div>
@@ -33,7 +31,7 @@ layout: layout.njk
       <h2 class="mb-12">Meet the elephants:</h2>
       <div class="space-y-12">
         <div>
-          <i class="fa-solid fa-brain text-2xl text-brain"></i>
+          <i class="fa-solid fa-brain text-brain text-2xl"></i>
           <h3>The brains in the room</h3>
           <p>
             Brains optimize for efficiency, creating blind spots in how groups
@@ -41,7 +39,7 @@ layout: layout.njk
           </p>
         </div>
         <div>
-          <i class="fa-solid fa-mug-hot text-2xl text-culture"></i>
+          <i class="fa-solid fa-mug-hot text-culture text-2xl"></i>
           <h3>The culture they create together</h3>
           <p>
             Cultural norms determine who feels safe speaking, what remains
@@ -49,7 +47,7 @@ layout: layout.njk
           </p>
         </div>
         <div>
-          <i class="fa-solid fa-file-lines text-2xl text-bureaucracy"></i>
+          <i class="fa-solid fa-file-lines text-bureaucracy text-2xl"></i>
           <h3>The bureaucracy they work within</h3>
           <p>
             Organizational structures and incentives determine what's possible
@@ -104,7 +102,9 @@ layout: layout.njk
           enjoyable collaboration. You consistently move another step forward
           while gaining both time and knowledge.
         </p>
-        <footer class="mt-2 italic opacity-60">Jörn A. (Managing Director)</footer>
+        <footer class="mt-2 italic opacity-60">
+          Jörn A. (Managing Director)
+        </footer>
       </blockquote>
     </div>
   </section>
@@ -125,9 +125,13 @@ layout: layout.njk
           To the resources →
         </a>
       </div>
-      <p>But if you'd like to draw on my experience, I offer consulting sessions, a change audit, and a culture portrait.</p>
+      <p>
+        But if you'd like to draw on my experience, I offer consulting sessions,
+        a change audit, and a culture portrait.
+      </p>
       <a href="/consulting/" class="text-primary font-semibold hover:underline"
-        >To the consulting services →</a>
+        >To the consulting services →</a
+      >
     </div>
   </section>
 

@@ -3,24 +3,28 @@ layout: layout.njk
 title: DIY Team Building | Organifanten
 ---
 
-<div class="bg-base-100 text-base-content min-h-screen">
-  <section class="py-12">
-    <div class="mx-auto max-w-3xl px-6">
-      <h1>DIY Team Building</h1>
-      <p class="mb-2 text-lg opacity-80">
-        Level 12 is a year of DIY team development.
-      </p>
-      <p class="mb-8 text-sm opacity-60">
-        Can your team complete all tasks up to Level 12?
-      </p>
-    </div>
-  </section>
+<div>
+  <div class="mx-auto w-full max-w-3xl flex-1 px-6 py-20">
+    <a
+      href="/resources/"
+      class="text-primary mb-4 inline-block text-sm font-semibold hover:underline"
+      >← Back to Resources</a
+    >
+
+    <h1>DIY Team Building</h1>
+    <p class="mb-2">
+      Level 12 is a year of DIY team development.
+    </p>
+    <p class="mb-8 text-sm opacity-60">
+      Can your team complete all tasks up to Level 12?
+    </p>
+  </div>
 
   <section class="pb-12">
     <div class="mx-auto max-w-3xl space-y-8 px-6">
       {% for level in level12.levels %}
         <div class="border-base-300 overflow-hidden rounded-xl border">
-          <h2 class="border-base-300 border-b px-6 py-3 text-xl font-semibold">
+          <h2 class="border-base-300 border-b px-6 py-3 text-xl">
             {{ level.title }}
           </h2>
           <ol class="divide-base-200 divide-y">
@@ -50,7 +54,7 @@ title: DIY Team Building | Organifanten
   <!-- Further Reading -->
   <section class="pb-20">
     <div class="mx-auto max-w-3xl px-6">
-      <h2 class="mb-6 text-2xl font-semibold">Further Reading</h2>
+      <h2 class="text-2xl">Further Reading</h2>
       <p class="mb-6 text-base opacity-70">
         These lessons explain the mechanisms behind the game — how team building
         works, why the tasks are designed the way they are, and how to get the

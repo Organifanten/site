@@ -4,28 +4,23 @@ title: Consulting Session
 subtitle: 90 minutes to clarity
 ---
 
-A Consulting Session is a structured thinking partnership. You bring a real organizational situation—a tension, a decision, a conflict, or just confusion. I ask questions until your next step becomes visible.
+## 90 minutes to clarity.
 
-**90 minutes**, focused entirely on your situation. No templates, no frameworks to force-fit. Just one person asking good questions and another person hearing their own thinking more clearly.
+A Consulting Session is a structured, fast-paced thinking partnership.
 
-## Who it's for
+You know your business and your people. But when a complex situation becomes gridlocked, finding the next move is often a matter of scarce time and mental bandwidth. You bring a live organizational challenge—whether it’s a persistent friction point, a difficult transition, or a cultural dynamic you can’t quite pin down. I ask questions until the noise clears.
 
-- Team leads and managers navigating a tricky organizational situation
-- Consultants who need to think through a client dynamic
-- Executives working through change or culture questions
-- Anyone who needs to think out loud with someone who asks differently
+Instead of force-fitting rigid corporate templates, we spend these 90 minutes mapping the invisible patterns shaping your situation. Together, we isolate the true structural bottleneck and design a precise, low-overhead step to resolve it.
 
-## How it works
+## How we work
 
-I ask questions. That's the core of it. The session follows a loose rhythm:
+The session follows a lightweight, deliberate rhythm designed to respect your cognitive energy and bypass trial and error:
 
-1. You describe the situation in full
-2. I ask questions to surface assumptions, patterns, and possibilities
-3. Your clarity emerges naturally as you hear your own thinking reflected
-4. You leave with a clear next step
+**1. Unpack the context:**
+You describe the situation, the unwritten rules, and the boundaries of your team.
 
-## How to book
+**2. Expose the elephants:** I ask targeted questions to reduce complexity, helping you see the hidden systemic forces and separating the daily symptoms from the actual root cause.
 
-Sessions are available in Berlin (in-person) and remote via video.
+**3. Subtract the friction:** We design a localized intervention—focusing on what obstacles we can remove rather than what processes we need to add.
 
-[Write me](mailto:hello@organifanten.com) and we'll find a time.
+**4. Define the next step:** You leave with a highly specific, realistic action that aligns with your organizational culture.

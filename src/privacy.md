@@ -1,3 +1,8 @@
+---
+layout: layout.njk
+title: Privacy Policy | Organifanten
+---
+
 # Privacy Policy
 
 ## 1. Controller

@@ -1,3 +1,8 @@
+---
+layout: layout.njk
+title: FAQ | Organifanten
+---
+
 # Frequently Asked Questions
 
 ## 1. The Method
@@ -54,3 +59,8 @@ Invoice upon booking, due before the engagement begins. Bank transfer in EUR.
 
 **I have another question.**
 <a href="mailto:hello@organifanten.com">Write me</a>. I'm happy to answer.
+
+<div class="mt-16 text-center">
+  <p class="mb-4">Still have a question?</p>
+  <a href="mailto:hello@organifanten.com" class="text-primary font-semibold hover:underline">Write me</a>
+</div>

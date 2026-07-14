@@ -1,3 +1,8 @@
+---
+layout: layout.njk
+title: Imprint | Organifanten
+---
+
 # Imprint
 
 ## Information according to § 5 TMG
@@ -29,7 +34,7 @@ Germany
 
 ## Dispute Resolution
 
-The European Commission provides a platform for online dispute resolution (ODR): [https://ec.europa.eu/consumers/odr](https://ec.europa.eu/consumers/odr).
+The European Commission provides a platform for online dispute resolution (ODR): https://ec.europa.eu/consumers/odr.
 
 We are not willing or obliged to participate in dispute resolution proceedings before a consumer arbitration board.
 

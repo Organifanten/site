@@ -6,8 +6,9 @@ Marketing and consulting services site for [organifanten.com](https://app.organi
 
 ```bash
 npm install
-npm run dev     # Eleventy dev server with live reload
-npm run build   # Build to _site/
+npm run dev             # Eleventy dev server with live reload
+npm run build           # Build to _site/
+npx prettier --write .  # Format code
 ```
 
 ## Editing content

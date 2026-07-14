@@ -19,6 +19,7 @@
     "@tailwindcss/cli": "^4.3.2",
     "@tailwindcss/typography": "^0.5.19",
     "concurrently": "^10.0.3",
+    "esbuild": "^0.28.1",
     "prettier": "^3.9.4",
     "prettier-plugin-jinja-template": "^2.2.0",
     "prettier-plugin-tailwindcss": "^0.8.0",

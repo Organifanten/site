@@ -13,7 +13,9 @@ layout: layout.njk
     <p class="opacity-80">{{ learningOutcome }}</p>
   </div>
 
-  {{ content | safe }}
+  <div class="prose max-w-none">
+    {{ content | safe }}
+  </div>
 
   <section class="border-base-300 mt-16 border-t pt-8">
     <h2 class="mb-4 text-xl font-semibold">Reflection Questions</h2>

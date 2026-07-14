@@ -10,16 +10,10 @@ layout: layout.njk
       >← Back to Consulting</a
     >
 
-    <h1 class="mb-2 text-4xl font-semibold md:text-5xl">{{ title }}</h1>
-    <p class="mb-8 text-lg opacity-80">{{ subtitle }}</p>
+    <h1>{{ title }}</h1>
+    <p>{{ subtitle }}</p>
 
-    <div class="prose mb-12 max-w-none">{{ content | markdown | safe }}</div>
-
-    <hr class="border-base-300 mb-8" />
-    <p class="mb-4 opacity-80">Interested? I'm happy to talk it through.</p>
-    <a href="mailto:hello@organifanten.com" class="btn btn-primary">
-      Let's talk
-    </a>
+    <div class="prose mb-12 max-w-none">{{ content | safe }}</div>
   </div>
 
   {% include "footer.njk" %}

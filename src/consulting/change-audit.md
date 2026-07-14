@@ -1,0 +1,49 @@
+---
+layout: consulting.njk
+title: Change Audit
+subtitle: How is your change actually landing?
+---
+
+A Change Audit is a compact diagnostic engagement. I conduct 10 interviews with your team, review your change materials, then deliver a 3-page findings document plus a 90-minute debrief.
+
+The question it answers: _How is this change actually landing? What are the hidden obstacles nobody is talking about?_
+
+## When to use it
+
+A Change Audit is useful when:
+
+- You're in the middle of a significant change—merger, restructuring, new process, culture shift
+- You suspect the change isn't landing the way leadership intended
+- You want to understand obstacles before they become visible problems
+
+## How it works
+
+I spend one week interviewing and reviewing. Then I write up what I've found.
+
+**Interviews (3–4 days)**
+
+- 10 conversations across different levels and departments
+- Open-ended questions about experience, obstacles, and concerns
+- I'm looking for patterns, not collecting complaints
+
+**Materials Review (1 day)**
+
+- I review change communication, project plans, and any feedback already gathered
+- The goal is to find gaps between intent and perception
+
+**Findings Document (3 pages)**
+
+- What's working: where change is taking hold
+- What's stuck: where friction or resistance is highest
+- What's missing: gaps in understanding, resources, or communication
+
+**Debrief Session (90 minutes)**
+
+- I walk through the findings with you
+- We discuss implications and what to do next
+
+**Timeline**: 2 weeks from start to debrief
+
+## How it differs from Culture Portrait
+
+A Change Audit looks at how a _specific change_ is landing. A [Culture Portrait](/consulting/culture-portrait/) characterizes your _overall culture_ before any change is designed. Use Change Audit when you're in motion; use Culture Portrait when you need to understand the baseline first.

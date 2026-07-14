@@ -3,8 +3,9 @@
 ## Commands
 
 ```bash
-npm run dev     # Eleventy dev server with live reload
-npm run build   # Build to _site/
+npm run dev       # Tailwind CLI watch + Eleventy dev server with live reload
+npm run build     # Build CSS + Eleventy to _site/
+npm run build:css # Build CSS only
 npx prettier --write .  # Format all files with Prettier (uses prettier-plugin-jinja-template for .njk, prettier-plugin-tailwindcss for class sorting)
 ```
 
@@ -13,7 +14,7 @@ No tests, no linter, no typechecker configured. Verify output by running `npm ru
 ## Tech stack
 
 - **Eleventy v3** (Nunjucks templates in `src/`, partials in `src/_includes/`)
-- **Tailwind CSS v4** via PostCSS plugin (`@tailwindcss/postcss`), NOT a standalone `tailwind.config` — the PostCSS pipeline runs in `eleventy.config.mjs:10` inside `eleventy.before`
+- **Tailwind CSS v4** via `@tailwindcss/cli` — NOT a standalone `tailwind.config`. CSS built with `npm run build:css` (separate from Eleventy). Dev script runs CLI watch + Eleventy serve concurrently via `concurrently`.
 - **Custom theme** — color tokens (`--color-base-100`, `--color-primary`, etc.) defined in `src/styles/index.css` via `@theme` block
 - **`@tailwindcss/typography`** plugin for prose classes on rendered markdown
 
@@ -33,6 +34,6 @@ Push to `main` triggers GitHub Pages deploy via `.github/workflows/deploy.yml`. 
 
 - `src/assets/` is passthrough-copied to the output
 - `/docs/` contains planning and language documentation (not output)
-- No separate PostCSS config — the Tailwind build is embedded in the Eleventy config
+- No separate PostCSS config — the Tailwind CLI handles CSS processing directly
 - Files under `src/_data/` that are `.md` are NOT Eleventy data files in the traditional sense — they're processed by a custom extension handler and accessed as template variables for the `markdown` filter
 - Nav structure: "Consulting" (first, right-aligned) → `/consulting/`, "Resources" (second) → `/resources/`

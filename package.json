@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "eleventy --serve",
-    "build": "eleventy",
+    "dev": "concurrently \"npx @tailwindcss/cli -i ./src/styles/index.css -o ./_site/styles/index.css --watch\" \"eleventy --serve\"",
+    "build:css": "npx @tailwindcss/cli -i ./src/styles/index.css -o ./_site/styles/index.css",
+    "build": "npm run build:css && eleventy",
     "format": "prettier --write src/"
   },
   "keywords": [],
@@ -15,9 +16,9 @@
   "type": "commonjs",
   "devDependencies": {
     "@11ty/eleventy": "^3.1.2",
-    "@tailwindcss/postcss": "^4.1.18",
+    "@tailwindcss/cli": "^4.3.2",
     "@tailwindcss/typography": "^0.5.19",
-    "postcss": "^8.5.6",
+    "concurrently": "^10.0.3",
     "prettier": "^3.9.4",
     "prettier-plugin-jinja-template": "^2.2.0",
     "prettier-plugin-tailwindcss": "^0.8.0",

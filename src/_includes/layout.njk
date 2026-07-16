@@ -28,7 +28,11 @@
   </head>
   <body class="bg-base-100 text-base-content min-h-screen font-sans">
     {% include "nav.njk" %}
-    {{ content | safe }}
+    {% if noContentWrap %}
+      {{ content | safe }}
+    {% else %}
+      <div class="mx-auto my-10 max-w-3xl px-6">{{ content | safe }}</div>
+    {% endif %}
     {% include "footer.njk" %}
     {% if site.isProd %}
       {% include "consent-banner.njk" %}

@@ -1,166 +1,159 @@
 ---
 layout: layout.njk
+noContentWrap: true
 ---
 
 {% set elephantClass = "w-full h-auto" %}
 
-<div>
-  <!-- HERO -->
-  <section class="py-12 md:py-20">
-    <div class="mx-auto max-w-3xl px-6">
-      <div class="mb-8 flex justify-center gap-6 md:gap-10">
-        <div class="text-brain w-24 md:w-26">{% include "elephant.njk" %}</div>
-        <div class="text-culture w-24 md:w-26">
-          {% include "elephant.njk" %}
-        </div>
+<!-- HERO -->
+<section class="py-12 md:py-20">
+  <div class="mx-auto max-w-3xl px-6">
+    <div class="mb-8 flex justify-center gap-6 md:gap-10">
+      <div class="text-brain w-24 md:w-26">{% include "elephant.njk" %}</div>
+      <div class="text-culture w-24 md:w-26">{% include "elephant.njk" %}</div>
 
-        <div class="text-bureaucracy w-24 md:w-26">
-          {% include "elephant.njk" %}
-        </div>
-      </div>
-      <h1>There are elephants in the meeting room.</h1>
-      <p>They quietly shape conversations, decisions, and change efforts.</p>
-      <p>Do you know how to put them to work?</p>
-    </div>
-  </section>
-
-  <!-- THREE ELEPHANTS DETAILED -->
-  <section class="py-20">
-    <div class="mx-auto max-w-3xl px-6">
-      <h2 class="mb-12">Meet the elephants:</h2>
-      <div class="space-y-12">
-        <div>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 512 512"
-            class="text-brain h-10 w-10"
-            aria-hidden="true"
-            fill="currentColor"
-          >
-            <path
-              d="M184 0c30.9 0 56 25.1 56 56l0 400c0 30.9-25.1 56-56 56c-28.9 0-52.7-21.9-55.7-50.1c-5.2 1.4-10.7 2.1-16.3 2.1c-35.3 0-64-28.7-64-64c0-7.4 1.3-14.6 3.6-21.2C21.4 367.4 0 338.2 0 304c0-31.9 18.7-59.5 45.8-72.3C37.1 220.8 32 207 32 192c0-30.7 21.6-56.3 50.4-62.6C80.8 123.9 80 118 80 112c0-29.9 20.6-55.1 48.3-62.1C131.3 21.9 155.1 0 184 0zM328 0c28.9 0 52.6 21.9 55.7 49.9c27.8 7 48.3 32.1 48.3 62.1c0 6-.8 11.9-2.4 17.4c28.8 6.2 50.4 31.9 50.4 62.6c0 15-5.1 28.8-13.8 39.7C493.3 244.5 512 272.1 512 304c0 34.2-21.4 63.4-51.6 74.8c2.3 6.6 3.6 13.8 3.6 21.2c0 35.3-28.7 64-64 64c-5.6 0-11.1-.7-16.3-2.1c-3 28.2-26.8 50.1-55.7 50.1c-30.9 0-56-25.1-56-56l0-400c0-30.9 25.1-56 56-56z"
-            />
-          </svg>
-          <h3>The brains in the room</h3>
-          <p>
-            Brains optimize for efficiency, creating blind spots in how groups
-            think and behave.
-          </p>
-        </div>
-        <div>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 512 512"
-            class="text-culture h-10 w-10"
-            aria-hidden="true"
-            fill="currentColor"
-          >
-            <path
-              d="M88 0C74.7 0 64 10.7 64 24c0 38.9 23.4 59.4 39.1 73.1l1.1 1C120.5 112.3 128 119.9 128 136c0 13.3 10.7 24 24 24s24-10.7 24-24c0-38.9-23.4-59.4-39.1-73.1l-1.1-1C119.5 47.7 112 40.1 112 24c0-13.3-10.7-24-24-24zM32 192c-17.7 0-32 14.3-32 32L0 416c0 53 43 96 96 96l192 0c53 0 96-43 96-96l16 0c61.9 0 112-50.1 112-112s-50.1-112-112-112l-48 0L32 192zm352 64l16 0c26.5 0 48 21.5 48 48s-21.5 48-48 48l-16 0 0-96zM224 24c0-13.3-10.7-24-24-24s-24 10.7-24 24c0 38.9 23.4 59.4 39.1 73.1l1.1 1C232.5 112.3 240 119.9 240 136c0 13.3 10.7 24 24 24s24-10.7 24-24c0-38.9-23.4-59.4-39.1-73.1l-1.1-1C231.5 47.7 224 40.1 224 24z"
-            />
-          </svg>
-          <h3>The culture they create together</h3>
-          <p>
-            Cultural norms determine who feels safe speaking, what remains
-            unsaid, and how people navigate each other.
-          </p>
-        </div>
-        <div>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 384 512"
-            class="text-bureaucracy h-10 w-10"
-            aria-hidden="true"
-            fill="currentColor"
-          >
-            <path
-              d="M64 0C28.7 0 0 28.7 0 64L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-288-128 0c-17.7 0-32-14.3-32-32L224 0 64 0zM256 0l0 128 128 0L256 0zM112 256l160 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-160 0c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64l160 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-160 0c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64l160 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-160 0c-8.8 0-16-7.2-16-16s7.2-16 16-16z"
-            />
-          </svg>
-          <h3>The bureaucracy they work within</h3>
-          <p>
-            Organizational structures and incentives determine what's possible
-            and what gets done.
-          </p>
-        </div>
+      <div class="text-bureaucracy w-24 md:w-26">
+        {% include "elephant.njk" %}
       </div>
     </div>
-  </section>
+    <h1>There are elephants in the meeting room.</h1>
+    <p>They quietly shape conversations, decisions, and change efforts.</p>
+    <p>Do you know how to put them to work?</p>
+  </div>
+</section>
 
-  <!-- CONSULTING -->
-  <section class="bg-accent py-20">
-    <div class="mx-auto max-w-3xl px-6">
-      <h2>Organifanten puts the elephants to work.</h2>
-      <div class="mb-10 grid items-center gap-10 md:grid-cols-2">
-        <div class="space-y-4">
-          <p>
-            Organifanten helps you intentionally use the shortcuts of brains,
-            the unwritten rules of your culture, and the gravity of your
-            bureaucracy.
-          </p>
-          <p>
-            Instead of fighting inertia, we design actions that complement and
-            leverage these forces so they accelerate performance rather than
-            block it.
-          </p>
-          <div class="pt-4">
-            <a
-              href="/consulting/"
-              class="text-primary font-semibold hover:underline"
-              >More about my approach →</a
-            >
-          </div>
-        </div>
-        <div>
-          <img
-            src="/assets/images/GraphicRecording.jpeg"
-            alt="Graphic recording session"
-            class="w-full rounded-2xl object-cover shadow-sm"
-          />
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- PROOF -->
-  <section class="py-20">
-    <div class="mx-auto max-w-3xl px-6">
-      <blockquote class="border-primary mx-auto max-w-2xl border-l-4 pl-6">
-        <p>
-          Excellent workshops, a highly professional approach, and a very
-          enjoyable collaboration. You consistently move another step forward
-          while gaining both time and knowledge.
-        </p>
-        <footer class="mt-2 italic opacity-60">
-          Jörn A. (Managing Director)
-        </footer>
-      </blockquote>
-    </div>
-  </section>
-
-  <!-- FREE RESOURCES -->
-  <section class="bg-accent py-20">
-    <div class="mx-auto max-w-3xl space-y-4 px-6">
-      <h2>Some challenges don't need consulting.</h2>
-      <p>
-        You are the expert for your challenges. <br />Utilize the resources to
-        explore, discuss, and improve your organization on your own terms.
-      </p>
+<!-- THREE ELEPHANTS DETAILED -->
+<section class="py-20">
+  <div class="mx-auto max-w-3xl px-6">
+    <h2 class="mb-12">Meet the elephants:</h2>
+    <div class="space-y-12">
       <div>
-        <a
-          href="/resources/"
-          class="text-primary font-semibold hover:underline"
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 512 512"
+          class="text-brain h-10 w-10"
+          aria-hidden="true"
+          fill="currentColor"
         >
-          To Resources →
-        </a>
+          <path
+            d="M184 0c30.9 0 56 25.1 56 56l0 400c0 30.9-25.1 56-56 56c-28.9 0-52.7-21.9-55.7-50.1c-5.2 1.4-10.7 2.1-16.3 2.1c-35.3 0-64-28.7-64-64c0-7.4 1.3-14.6 3.6-21.2C21.4 367.4 0 338.2 0 304c0-31.9 18.7-59.5 45.8-72.3C37.1 220.8 32 207 32 192c0-30.7 21.6-56.3 50.4-62.6C80.8 123.9 80 118 80 112c0-29.9 20.6-55.1 48.3-62.1C131.3 21.9 155.1 0 184 0zM328 0c28.9 0 52.6 21.9 55.7 49.9c27.8 7 48.3 32.1 48.3 62.1c0 6-.8 11.9-2.4 17.4c28.8 6.2 50.4 31.9 50.4 62.6c0 15-5.1 28.8-13.8 39.7C493.3 244.5 512 272.1 512 304c0 34.2-21.4 63.4-51.6 74.8c2.3 6.6 3.6 13.8 3.6 21.2c0 35.3-28.7 64-64 64c-5.6 0-11.1-.7-16.3-2.1c-3 28.2-26.8 50.1-55.7 50.1c-30.9 0-56-25.1-56-56l0-400c0-30.9 25.1-56 56-56z"
+          />
+        </svg>
+        <h3>The brains in the room</h3>
+        <p>
+          Brains optimize for efficiency, creating blind spots in how groups
+          think and behave.
+        </p>
       </div>
-      <p>
-        But if you'd like to draw on my experience, I offer consulting sessions,
-        a change audit, and a culture portrait.
-      </p>
-      <a href="/consulting/" class="text-primary font-semibold hover:underline"
-        >To Consulting Services →</a
-      >
+      <div>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 512 512"
+          class="text-culture h-10 w-10"
+          aria-hidden="true"
+          fill="currentColor"
+        >
+          <path
+            d="M88 0C74.7 0 64 10.7 64 24c0 38.9 23.4 59.4 39.1 73.1l1.1 1C120.5 112.3 128 119.9 128 136c0 13.3 10.7 24 24 24s24-10.7 24-24c0-38.9-23.4-59.4-39.1-73.1l-1.1-1C119.5 47.7 112 40.1 112 24c0-13.3-10.7-24-24-24zM32 192c-17.7 0-32 14.3-32 32L0 416c0 53 43 96 96 96l192 0c53 0 96-43 96-96l16 0c61.9 0 112-50.1 112-112s-50.1-112-112-112l-48 0L32 192zm352 64l16 0c26.5 0 48 21.5 48 48s-21.5 48-48 48l-16 0 0-96zM224 24c0-13.3-10.7-24-24-24s-24 10.7-24 24c0 38.9 23.4 59.4 39.1 73.1l1.1 1C232.5 112.3 240 119.9 240 136c0 13.3 10.7 24 24 24s24-10.7 24-24c0-38.9-23.4-59.4-39.1-73.1l-1.1-1C231.5 47.7 224 40.1 224 24z"
+          />
+        </svg>
+        <h3>The culture they create together</h3>
+        <p>
+          Cultural norms determine who feels safe speaking, what remains unsaid,
+          and how people navigate each other.
+        </p>
+      </div>
+      <div>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 384 512"
+          class="text-bureaucracy h-10 w-10"
+          aria-hidden="true"
+          fill="currentColor"
+        >
+          <path
+            d="M64 0C28.7 0 0 28.7 0 64L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-288-128 0c-17.7 0-32-14.3-32-32L224 0 64 0zM256 0l0 128 128 0L256 0zM112 256l160 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-160 0c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64l160 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-160 0c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64l160 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-160 0c-8.8 0-16-7.2-16-16s7.2-16 16-16z"
+          />
+        </svg>
+        <h3>The bureaucracy they work within</h3>
+        <p>
+          Organizational structures and incentives determine what's possible and
+          what gets done.
+        </p>
+      </div>
     </div>
-  </section>
-</div>
+  </div>
+</section>
+
+<!-- CONSULTING -->
+<section class="bg-accent py-20">
+  <div class="mx-auto max-w-3xl px-6">
+    <h2>Organifanten puts the elephants to work.</h2>
+    <div class="mb-10 grid items-center gap-10 md:grid-cols-2">
+      <div class="space-y-4">
+        <p>
+          Organifanten helps you intentionally use the shortcuts of brains, the
+          unwritten rules of your culture, and the gravity of your bureaucracy.
+        </p>
+        <p>
+          Instead of fighting inertia, we design actions that complement and
+          leverage these forces so they accelerate performance rather than block
+          it.
+        </p>
+        <div class="pt-4">
+          <a
+            href="/consulting/"
+            class="text-primary font-semibold hover:underline"
+            >More about my approach →</a
+          >
+        </div>
+      </div>
+      <div>
+        <img
+          src="/assets/images/GraphicRecording.jpeg"
+          alt="Graphic recording session"
+          class="w-full rounded-2xl object-cover shadow-sm"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROOF -->
+<section class="py-20">
+  <div class="mx-auto max-w-3xl px-6">
+    <blockquote class="border-primary mx-auto max-w-2xl border-l-4 pl-6">
+      <p>
+        Excellent workshops, a highly professional approach, and a very
+        enjoyable collaboration. You consistently move another step forward
+        while gaining both time and knowledge.
+      </p>
+      <footer class="mt-2 italic opacity-60">
+        Jörn A. (Managing Director)
+      </footer>
+    </blockquote>
+  </div>
+</section>
+
+<!-- FREE RESOURCES -->
+<section class="bg-accent py-20">
+  <div class="mx-auto max-w-3xl space-y-4 px-6">
+    <h2>Some challenges don't need consulting.</h2>
+    <p>
+      You are the expert for your challenges. <br />Utilize the resources to
+      explore, discuss, and improve your organization on your own terms.
+    </p>
+    <div>
+      <a href="/resources/" class="text-primary font-semibold hover:underline">
+        To Resources →
+      </a>
+    </div>
+    <p>
+      But if you'd like to draw on my experience, I offer consulting sessions, a
+      change audit, and a culture portrait.
+    </p>
+    <a href="/consulting/" class="text-primary font-semibold hover:underline"
+      >To Consulting Services →</a
+    >
+  </div>
+</section>

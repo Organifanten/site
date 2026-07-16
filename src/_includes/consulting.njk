@@ -1,39 +1,38 @@
 ---
 layout: layout.njk
+noContentWrap: true
 ---
 
-<div>
-  <div class="mx-auto w-full max-w-3xl flex-1 px-6 py-20">
-    <a
-      href="/consulting/"
-      class="text-primary mb-4 inline-block text-sm font-semibold hover:underline"
-      >← Back to Consulting Services</a
-    >
+<div class="mx-auto w-full max-w-3xl flex-1 px-6 py-20">
+  <a
+    href="/consulting/"
+    class="text-primary mb-4 inline-block text-sm font-semibold hover:underline"
+    >← Back to Consulting Services</a
+  >
 
-    <h1>{{ title }}</h1>
-    <p>{{ subtitle }}</p>
+  <h1>{{ title }}</h1>
+  <p>{{ subtitle }}</p>
 
-    <div class="prose mb-12 max-w-none">{{ content | safe }}</div>
-  </div>
-
-  <section class="bg-accent py-20">
-    <div class="mx-auto max-w-3xl px-6">
-      <div class="flex flex-col items-start gap-8 md:flex-row">
-        <div class="w-full md:w-3/4">
-          <h2 class="mt-0 mb-2">Hi, I'm Nicolas.</h2>
-          <p>
-            I help people work on organizational tensions by removing hidden
-            constraints — the assumptions, structures, and habits that keep
-            problems in place. Instead of adding new frameworks, we find the
-            smallest step forward that actually works in your organization.
-          </p>
-        </div>
-        <img
-          src="/assets/images/NicolasMegow.jpg"
-          alt="Nicolas Megow"
-          class="w-1/3 rounded-2xl object-cover shadow-sm md:w-1/4"
-        />
-      </div>
-    </div>
-  </section>
+  <div class="prose mb-12 max-w-none">{{ content | safe }}</div>
 </div>
+
+<section class="bg-accent py-20">
+  <div class="mx-auto max-w-3xl px-6">
+    <div class="flex flex-col items-start gap-8 md:flex-row">
+      <div class="w-full md:w-3/4">
+        <h2 class="mt-0 mb-2">Hi, I'm Nicolas.</h2>
+        <p>
+          I help people work on organizational tensions by removing hidden
+          constraints — the assumptions, structures, and habits that keep
+          problems in place. Instead of adding new frameworks, we find the
+          smallest step forward that actually works in your organization.
+        </p>
+      </div>
+      <img
+        src="/assets/images/NicolasMegow.jpg"
+        alt="Nicolas Megow"
+        class="w-1/3 rounded-2xl object-cover shadow-sm md:w-1/4"
+      />
+    </div>
+  </div>
+</section>

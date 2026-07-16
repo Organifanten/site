@@ -3,75 +3,73 @@ layout: layout.njk
 title: DIY Team Building | Organifanten
 ---
 
-<div>
-  <div class="mx-auto w-full max-w-3xl flex-1 px-6 py-20">
-    <a
-      href="/resources/"
-      class="text-primary mb-4 inline-block text-sm font-semibold hover:underline"
-      >← Back to Resources</a
-    >
+<div class="w-full flex-1 py-20">
+  <a
+    href="/resources/"
+    class="text-primary mb-4 inline-block text-sm font-semibold hover:underline"
+    >← Back to Resources</a
+  >
 
-    <h1>DIY Team Building</h1>
-    <p class="mb-2">Level 12 is a year of DIY team development.</p>
-    <p class="mb-8 text-sm opacity-60">
-      Can your team complete all tasks up to Level 12?
-    </p>
+  <h1>DIY Team Building</h1>
+  <p class="mb-2">Level 12 is a year of DIY team development.</p>
+  <p class="mb-8 text-sm opacity-60">
+    Can your team complete all tasks up to Level 12?
+  </p>
+</div>
+
+<section class="pb-12">
+  <div class="space-y-8">
+    {% for level in level12.levels %}
+      <div class="border-base-300 overflow-hidden rounded-xl border">
+        <h2 class="border-base-300 border-b px-6 py-3 text-xl">
+          {{ level.title }}
+        </h2>
+        <ol class="divide-base-200 divide-y">
+          {% for task in level.tasks %}
+            <li class="task">
+              <button
+                class="task-title text-primary flex w-full items-center gap-2 px-6 py-3 text-left font-medium transition-colors hover:opacity-80"
+                data-index="{{ loop.index0 }}"
+              >
+                <span class="text-xs opacity-40">▸</span>
+                {{ task.title }}
+              </button>
+              <div
+                class="task-details px-6 pb-4 text-sm leading-relaxed opacity-80"
+                hidden
+              >
+                {{ task.detail }}
+              </div>
+            </li>
+          {% endfor %}
+        </ol>
+      </div>
+    {% endfor %}
   </div>
+</section>
 
-  <section class="pb-12">
-    <div class="mx-auto max-w-3xl space-y-8 px-6">
-      {% for level in level12.levels %}
-        <div class="border-base-300 overflow-hidden rounded-xl border">
-          <h2 class="border-base-300 border-b px-6 py-3 text-xl">
-            {{ level.title }}
-          </h2>
-          <ol class="divide-base-200 divide-y">
-            {% for task in level.tasks %}
-              <li class="task">
-                <button
-                  class="task-title text-primary flex w-full items-center gap-2 px-6 py-3 text-left font-medium transition-colors hover:opacity-80"
-                  data-index="{{ loop.index0 }}"
-                >
-                  <span class="text-xs opacity-40">▸</span>
-                  {{ task.title }}
-                </button>
-                <div
-                  class="task-details px-6 pb-4 text-sm leading-relaxed opacity-80"
-                  hidden
-                >
-                  {{ task.detail }}
-                </div>
-              </li>
-            {% endfor %}
-          </ol>
+<!-- Further Reading -->
+<section class="pb-20">
+  <div>
+    <h2 class="text-2xl">Further Reading</h2>
+    <p class="mb-6 text-base opacity-70">
+      These lessons explain the mechanisms behind the game — how team building
+      works, why the tasks are designed the way they are, and how to get the
+      most out of each level.
+    </p>
+    <div class="space-y-4">
+      {% for lesson in lessons %}
+        <div class="border-base-300 rounded-lg border p-4">
+          <a
+            href="/resources/diy-team-building/{{ lesson.slug }}/"
+            class="text-primary font-semibold hover:underline"
+            >Lesson {{ lesson.number }}: {{ lesson.title }}</a
+          >
+          <p class="mt-1 text-sm opacity-60">{{ lesson.teaser }}</p>
         </div>
       {% endfor %}
     </div>
-  </section>
-
-  <!-- Further Reading -->
-  <section class="pb-20">
-    <div class="mx-auto max-w-3xl px-6">
-      <h2 class="text-2xl">Further Reading</h2>
-      <p class="mb-6 text-base opacity-70">
-        These lessons explain the mechanisms behind the game — how team building
-        works, why the tasks are designed the way they are, and how to get the
-        most out of each level.
-      </p>
-      <div class="space-y-4">
-        {% for lesson in lessons %}
-          <div class="border-base-300 rounded-lg border p-4">
-            <a
-              href="/resources/diy-team-building/{{ lesson.slug }}/"
-              class="text-primary font-semibold hover:underline"
-              >Lesson {{ lesson.number }}: {{ lesson.title }}</a
-            >
-            <p class="mt-1 text-sm opacity-60">{{ lesson.teaser }}</p>
-          </div>
-        {% endfor %}
-      </div>
-    </div>
-  </section>
-</div>
+  </div>
+</section>
 
 <script src="/assets/level-toggle.js" defer></script>

@@ -40,7 +40,7 @@
   }
 
   .code-copy-btn {
-    @apply bg-base-300 text-base-content absolute top-1/2 right-0 -translate-y-1/2 cursor-pointer rounded-l px-3 py-2 text-xs font-medium;
+    @apply bg-base-300 text-base-content absolute top-1/2 right-0 -translate-y-1/2 cursor-pointer rounded-l-sm px-3 py-2 text-xs font-medium;
   }
 
   .code-copy-btn::after {

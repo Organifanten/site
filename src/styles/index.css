@@ -11,11 +11,45 @@
   }
 
   h3 {
-    @apply my-4 text-2xl font-semibold;
+    @apply my-4 text-2xl;
   }
 
   p {
     @apply text-lg leading-relaxed opacity-80;
+  }
+
+  a {
+    @apply text-primary hover:underline;
+    font-size: inherit;
+  }
+
+  code {
+    @apply bg-base-200 rounded px-1.5 py-0.5 font-mono text-sm;
+  }
+
+  pre {
+    @apply bg-base-200 my-4 overflow-x-auto rounded-lg py-4 pr-14 pl-4 font-mono text-sm;
+  }
+
+  pre code {
+    @apply bg-transparent p-0;
+  }
+
+  .code-block {
+    @apply relative;
+  }
+
+  .code-copy-btn {
+    @apply bg-base-300 text-base-content absolute top-1/2 right-0 -translate-y-1/2 cursor-pointer rounded-l px-3 py-2 text-xs font-medium;
+  }
+
+  .code-copy-btn::after {
+    content: attr(data-tooltip);
+    @apply bg-neutral text-neutral-content pointer-events-none absolute right-0 bottom-full mb-1 rounded px-2 py-1 text-xs whitespace-nowrap opacity-0 transition-opacity;
+  }
+
+  .code-copy-btn:hover::after {
+    @apply opacity-100;
   }
 }
 
@@ -29,6 +63,10 @@
 
 @utility tip-box {
   @apply border-info/30 my-8 rounded-xl border p-6;
+}
+
+@utility link-footer {
+  @apply text-base-content no-underline opacity-60 hover:opacity-100;
 }
 
 @theme {

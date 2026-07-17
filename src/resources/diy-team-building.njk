@@ -4,11 +4,7 @@ title: DIY Team Building | Organifanten
 ---
 
 <div class="w-full flex-1 py-20">
-  <a
-    href="/resources/"
-    class="text-primary mb-4 inline-block text-sm font-semibold hover:underline"
-    >← Back to Resources</a
-  >
+  <a href="/resources/" class="mb-4 inline-block">← Back to Resources</a>
 
   <h1>DIY Team Building</h1>
   <p class="mb-2">Level 12 is a year of DIY team development.</p>
@@ -60,9 +56,7 @@ title: DIY Team Building | Organifanten
     <div class="space-y-4">
       {% for lesson in lessons %}
         <div class="border-base-300 rounded-lg border p-4">
-          <a
-            href="/resources/diy-team-building/{{ lesson.slug }}/"
-            class="text-primary font-semibold hover:underline"
+          <a href="/resources/diy-team-building/{{ lesson.slug }}/"
             >Lesson {{ lesson.number }}: {{ lesson.title }}</a
           >
           <p class="mt-1 text-sm opacity-60">{{ lesson.teaser }}</p>

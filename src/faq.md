@@ -62,5 +62,5 @@ Invoice upon booking, due before the engagement begins. Bank transfer in EUR.
 
 <div class="mt-16 text-center">
   <p class="mb-4">Still have a question?</p>
-  <a href="mailto:hello@organifanten.com" class="text-primary font-semibold hover:underline">Write me</a>
+  <a href="mailto:hello@organifanten.com">Write me</a>
 </div>

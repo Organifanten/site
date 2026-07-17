@@ -29,13 +29,14 @@
   <body class="bg-base-100 text-base-content min-h-screen font-sans">
     {% include "nav.njk" %}
     {% if noContentWrap %}
-      {{ content | safe }}
+      <div class="text-lg">{{ content | safe }}</div>
     {% else %}
-      <div class="mx-auto my-10 max-w-3xl px-6">{{ content | safe }}</div>
+      <div class="prose mx-auto my-10 max-w-3xl px-6">{{ content | safe }}</div>
     {% endif %}
     {% include "footer.njk" %}
     {% if site.isProd %}
       {% include "consent-banner.njk" %}
     {% endif %}
+    <script src="/assets/code-copy.js" defer></script>
   </body>
 </html>

@@ -1,23 +1,23 @@
 # organifanten-landing
 
-Marketing and consulting services site for [organifanten.com](https://app.organifanten.com), built with [Eleventy](https://www.11ty.dev/) and [Tailwind CSS](https://tailwindcss.com/).
+Marketing and consulting services site for [organifanten.com](https://organifanten.com), built with [Eleventy](https://www.11ty.dev/) and [Tailwind CSS](https://tailwindcss.com/).
 
 ## Quick start
 
 ```bash
 npm install
-npm run dev             # Eleventy dev server with live reload
-npm run build           # Build to _site/
+npm run dev             # Tailwind CLI watch + Eleventy dev server with live reload
+npm run build           # Build CSS + Eleventy to _site/
 npx prettier --write .  # Format code
 ```
 
 ## Editing content
 
-Frequently-edited content lives in `src/_data/` as Markdown files, rendered via a `markdown` filter:
+Content lives in `src/` as Markdown (`.md`) and Nunjucks (`.njk`) files:
 
-- `faq.md` — FAQ
-- `imprint.md` — Legal notice
-- `privacy.md` — Privacy policy
-- `backlog.json` — Product backlog
+- `src/faq.md` — FAQ
+- `src/imprint.md` — Legal notice
+- `src/privacy.md` — Privacy policy
+- `src/resources/intervention-catalogue.md` — Intervention catalogue
 
 For page routes, structure, and language references, see `AGENTS.md` and `docs/CONTEXT.md`.

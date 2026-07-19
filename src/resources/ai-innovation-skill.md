@@ -3,6 +3,8 @@ layout: layout.njk
 title: AI Innovation Skill | Organifanten
 ---
 
+[← Back to Resources](/resources/)
+
 # AI Innovation Skill
 
 An AI agent skill for structured ideation through the adjacent possible.

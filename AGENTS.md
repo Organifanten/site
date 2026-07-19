@@ -6,7 +6,7 @@
 npm run dev       # Tailwind CLI watch + Eleventy dev server with live reload
 npm run build     # Build CSS + Eleventy to _site/
 npm run build:css # Build CSS only
-npx prettier --write .  # Format all files with Prettier (uses prettier-plugin-jinja-template for .njk, prettier-plugin-tailwindcss for class sorting)
+npx prettier --write .  # Format code
 ```
 
 No tests, no linter, no typechecker configured. Verify output by running `npm run build` and inspecting `_site/`.
@@ -17,6 +17,13 @@ No tests, no linter, no typechecker configured. Verify output by running `npm ru
 - **Tailwind CSS v4** via `@tailwindcss/cli` — NOT a standalone `tailwind.config`. CSS built with `npm run build:css` (separate from Eleventy). Dev script runs CLI watch + Eleventy serve concurrently via `concurrently`.
 - **Custom theme** — color tokens (`--color-base-100`, `--color-primary`, etc.) defined in `src/styles/index.css` via `@theme` block
 - **`@tailwindcss/typography`** plugin for prose classes on rendered markdown
+
+## Conventions
+
+- **Style**: Follow `docs/style.md` for voice, tone, visual direction, and anti-patterns
+- **Content files**: prefer `.md` for content pages, `.njk` only when template logic is needed (e.g. loops, conditionals, data iteration)
+- **Data files**: `.json` in `src/_data/` for structured data; `.md` in `src/_data/` only for content rendered via the `markdown` filter
+- **Formatting**: `npx prettier --write .` — uses `prettier-plugin-jinja-template` for `.njk` and `prettier-plugin-tailwindcss` for class sorting
 
 ## Content model
 

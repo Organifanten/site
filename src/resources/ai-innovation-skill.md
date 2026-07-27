@@ -3,7 +3,7 @@ layout: layout.njk
 title: AI Innovation Skill | Organifanten
 ---
 
-[← Back to Resources](/resources/)
+<a href="/resources/" class="nav-link inline-block">← Resources</a>
 
 # AI Innovation Skill
 

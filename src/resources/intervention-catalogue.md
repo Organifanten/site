@@ -3,7 +3,7 @@ layout: layout.njk
 title: Intervention Catalogue | Organifanten
 ---
 
-[← Back to Resources](/resources/)
+<a href="/resources/" class="nav-link inline-block">← Resources</a>
 
 # Intervention Catalogue
 

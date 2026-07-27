@@ -1,0 +1,48 @@
+---
+layout: layout.njk
+---
+
+<div class="py-10">
+  <a href="/resources/diy-team-building/" class="nav-link mb-4 inline-block">← DIY Team Building</a>
+
+  
+  <h1 >{{ title }}</h1>
+  <p class="text-primary mb-4 mt-0 text-sm font-bold tracking-wider uppercase">
+    Activity {{ activityNumber }}
+  </p>
+  <div class="prose max-w-none">{{ content | safe }}</div>
+
+  <div class="card-bordered mt-16">
+    <p class="mb-2 font-medium">Outcomes</p>
+    <p>{{ learningOutcome }}</p>
+    <h2 class="mb-4 mt-6 text-xl">Reflection Questions</h2>
+    <ul class="space-y-3 opacity-80">
+      {% for q in reflectionQuestions %}
+        <li>{{ q }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="mt-12 flex justify-between">
+    {% if prev %}
+      <a
+        href="/resources/diy-team-building/{{ prev.slug }}/"
+        class="nav-link"
+      >
+        ← {{ prev.title }}
+      </a>
+    {% else %}
+      <div></div>
+    {% endif %}
+    {% if next %}
+      <a
+        href="/resources/diy-team-building/{{ next.slug }}/"
+        class="nav-link"
+      >
+        {{ next.title }} →
+      </a>
+    {% else %}
+      <div></div>
+    {% endif %}
+  </div>
+</div>

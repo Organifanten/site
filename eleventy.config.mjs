@@ -22,11 +22,16 @@ export default function (eleventyConfig) {
       return url;
     }
   });
+  eleventyConfig.addCollection("activities", (collectionApi) =>
+    collectionApi
+      .getFilteredByGlob("src/resources/diy-team-building/activity-*.md")
+      .sort((a, b) => a.data.activityNumber - b.data.activityNumber),
+  );
   eleventyConfig.addPassthroughCopy("src/assets");
 
   eleventyConfig.on("eleventy.after", async () => {
     await esbuild.build({
-      entryPoints: ["_site/assets/consent.js", "_site/assets/level-toggle.js"],
+      entryPoints: ["_site/assets/consent.js"],
       allowOverwrite: true,
       minify: true,
       outdir: "_site/assets",

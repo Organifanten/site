@@ -53,6 +53,10 @@
   @apply border-info/30 my-8 rounded-xl border p-6;
 }
 
+@utility nav-link {
+  @apply text-primary no-underline hover:underline;
+}
+
 @utility link-footer {
   @apply text-base-content no-underline opacity-60 hover:opacity-100;
 }

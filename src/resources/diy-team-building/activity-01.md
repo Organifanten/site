@@ -1,6 +1,6 @@
 ---
 layout: activity.njk
-title: "Walk Together"
+title: "Take a Walk Together"
 activityNumber: 1
 slug: "activity-01"
 teaser: "Why shared movement and unhurried time are the simplest trust builders."

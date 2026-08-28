@@ -9,40 +9,41 @@ title: Intervention Catalogue | Organifanten
 
 The elephants in meeting rooms are intangible. To put them to work, our interventions must go through the tangible components of the organization. The table below lists the components and the archetypal interventions that can be applied to each.
 
-| Org. Component | Intervention Archetypes                      |
-| -------------- | -------------------------------------------- |
-| People         | Hire, train, convene, reorganize, remove     |
-| Technologies   | Explore, integrate, diffuse, upgrade, remove |
-| Processes      | Create, refine, remove                       |
-| Policies       | Define, refine, remove                       |
-| Artifacts      | Create, refactor, standardize, remove        |
+| Org. Component | Intervention Archetypes                          |
+| -------------- | ------------------------------------------------ |
+| People         | Hire, train, convene, inform, reorganize, remove |
+| Technologies   | Explore, integrate, diffuse, upgrade, remove     |
+| Processes      | Create, refine, remove                           |
+| Policies       | Define, refine, remove                           |
+| Artifacts      | Create, refactor, standardize, remove            |
 
 ## Specific interventions
 
 Each archetype can be applied in many ways. The table below lists concrete examples. Minimally invasive interventions are in _italics_.
 
-| Archetype            | Specific Interventions                                                                                                                                          |
-| -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Hire people          | Recruit a full-time specialist, bring in an external consultancy team, hire a contractor for a specific skill, _post a job listing for a single capability gap_ |
-| Train people         | Develop a multi-week training program, send the team to an external course, _pair with a colleague who has the skill, write a short reference guide_            |
-| Convene people       | Organize an offsite workshop, run a multi-week sensemaking process, _hold a 30-minute stand-up, schedule a single focused conversation_                         |
-| Reorganize people    | Restructure entire departments, create a new business unit, _swap two people between teams, move one role to a different reporting line_                        |
-| Remove people        | Implement a layoff program, outsource an entire function, _reassign one person to a different role, end a single contractor engagement_                         |
-| Explore technology   | Commission a feasibility study, run a multi-month pilot, _try a free trial for a week, watch a demo with the team_                                              |
-| Integrate technology | Company-wide platform rollout, migrate the entire tech stack, _integrate into one team first, connect to a single workflow_                                     |
-| Diffuse technology   | Mandatory adoption across departments, create a Center of Excellence, _share a quick demo in a team meeting, write a short how-to guide_                        |
-| Upgrade technology   | Major version migration, platform overhaul, _update one feature, configure an existing setting differently_                                                     |
-| Remove technology    | Decommission an entire platform, migrate all data, _cancel one unused license, disable a rarely-used feature_                                                   |
-| Create process       | Design an end-to-end workflow, implement a process management system, _add one checklist step, create a simple template_                                        |
-| Refine process       | Process reengineering project, hire a process consultant, _remove one approval step, shorten one meeting_                                                       |
-| Remove process       | Eliminate an entire reporting cycle, restructure governance, _stop filling out one form, skip one recurring meeting_                                            |
-| Define policy        | Write a comprehensive policy manual, establish a compliance framework, _clarify one decision rule, state one boundary explicitly_                               |
-| Refine policy        | Overhaul the compensation system, redesign performance reviews, _adjust one threshold, change one criteria_                                                     |
-| Remove policy        | Eliminate an entire policy category, restructure governance, _remove one approval requirement, drop one reporting obligation_                                   |
-| Create artifact      | Build a company-wide knowledge base, develop a training manual, _write a one-page template, create a short FAQ_                                                 |
-| Refactor artifact    | Restructure the entire documentation system, reorganize the shared drive, _rename one section, reorder one document_                                            |
-| Standardize artifact | Implement a document management system, create corporate design guidelines, _align one template across teams, agree on one naming convention_                   |
-| Remove artifact      | Archive an entire document repository, decommission a reporting system, _delete one outdated file, stop updating one spreadsheet_                               |
+| Archetype            | Specific Interventions                                                                                                                                                                                                     |
+| -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Hire people          | Recruit a full-time specialist, bring in an external consultancy team, hire a contractor for a specific skill, _post a job listing for a single capability gap_                                                            |
+| Train people         | Develop a multi-week training program, send the team to an external course, _pair with a colleague who has the skill, write a short reference guide_                                                                       |
+| Convene people       | Organize an offsite workshop, run a multi-week sensemaking process, _hold a 30-minute stand-up, schedule a single focused conversation_                                                                                    |
+| Inform people        | Organize a town-hall meeting, run a full communication campaign, publish a comprehensive documentation release, _share a one-page summary, post the raw findings where the team already works, make a single announcement_ |
+| Reorganize people    | Restructure entire departments, create a new business unit, _swap two people between teams, move one role to a different reporting line_                                                                                   |
+| Remove people        | Implement a layoff program, outsource an entire function, _reassign one person to a different role, end a single contractor engagement_                                                                                    |
+| Explore technology   | Commission a feasibility study, run a multi-month pilot, _try a free trial for a week, watch a demo with the team_                                                                                                         |
+| Integrate technology | Company-wide platform rollout, migrate the entire tech stack, _integrate into one team first, connect to a single workflow_                                                                                                |
+| Diffuse technology   | Mandatory adoption across departments, create a Center of Excellence, _share a quick demo in a team meeting, write a short how-to guide_                                                                                   |
+| Upgrade technology   | Major version migration, platform overhaul, _update one feature, configure an existing setting differently_                                                                                                                |
+| Remove technology    | Decommission an entire platform, migrate all data, _cancel one unused license, disable a rarely-used feature_                                                                                                              |
+| Create process       | Design an end-to-end workflow, implement a process management system, _add one checklist step, create a simple template_                                                                                                   |
+| Refine process       | Process reengineering project, hire a process consultant, _remove one approval step, shorten one meeting_                                                                                                                  |
+| Remove process       | Eliminate an entire reporting cycle, restructure governance, _stop filling out one form, skip one recurring meeting_                                                                                                       |
+| Define policy        | Write a comprehensive policy manual, establish a compliance framework, _clarify one decision rule, state one boundary explicitly_                                                                                          |
+| Refine policy        | Overhaul the compensation system, redesign performance reviews, _adjust one threshold, change one criteria_                                                                                                                |
+| Remove policy        | Eliminate an entire policy category, restructure governance, _remove one approval requirement, drop one reporting obligation_                                                                                              |
+| Create artifact      | Build a company-wide knowledge base, develop a training manual, _write a one-page template, create a short FAQ_                                                                                                            |
+| Refactor artifact    | Restructure the entire documentation system, reorganize the shared drive, _rename one section, reorder one document_                                                                                                       |
+| Standardize artifact | Implement a document management system, create corporate design guidelines, _align one template across teams, agree on one naming convention_                                                                              |
+| Remove artifact      | Archive an entire document repository, decommission a reporting system, _delete one outdated file, stop updating one spreadsheet_                                                                                          |
 
 ## Choosing minimally invasive interventions
 
